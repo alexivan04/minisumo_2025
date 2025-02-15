@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "2025-02-15_11-01-43")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/2025-02-15_11-01-43.kicad_sym")(options "")(descr ""))
+  (lib (name "LD39200PU33R")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/LD39200PU33R.kicad_sym")(options "")(descr ""))
+)
