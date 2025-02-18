@@ -9707,6 +9707,16 @@
 		)
 		(uuid "2718b532-4dda-4a8a-b639-9e3f99c511e5")
 	)
+	(label "IN1_2"
+		(at 327.66 54.61 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "27cb1ace-b8b5-4486-ada0-b833c98d5c0f")
+	)
 	(label "GPIO7"
 		(at 322.58 64.77 180)
 		(effects
@@ -10067,6 +10077,16 @@
 			(justify right bottom)
 		)
 		(uuid "6614a565-f1df-44fb-adc8-051247645544")
+	)
+	(label "IN1_1"
+		(at 360.68 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6befde46-f41f-4f27-b4ef-bdef39cd3a9d")
 	)
 	(label "GPIO6"
 		(at 55.88 54.61 180)
@@ -10869,6 +10889,16 @@
 		)
 		(uuid "f1bf945d-880c-4653-a43f-f7f0196ed288")
 	)
+	(label "IN2_1"
+		(at 360.68 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "f2af021a-2083-4a7f-abb1-fe1dd4bc6fbe")
+	)
 	(label "GPIO1"
 		(at 322.58 52.07 180)
 		(effects
@@ -10968,6 +10998,16 @@
 			(justify left bottom)
 		)
 		(uuid "ff7f635c-a980-495c-96c3-523cbb3c3c41")
+	)
+	(label "IN2_2"
+		(at 327.66 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ffba063c-7df7-45c3-b31a-30ab056428de")
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
