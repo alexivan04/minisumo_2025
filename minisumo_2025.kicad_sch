@@ -9486,7 +9486,7 @@
 		)
 		(uuid "36b8cc8a-5adc-4828-b4bd-3bf5cfca6378")
 	)
-	(text "TODO:\n- is the level shifting good - add jumpers to choose to use or not to use the logic converter\n- how should i route the different grounds for regulator and drivers?\n\n"
+	(text "TODO:\n - DO NOT PLACE THE BIG CAPACITORS BETWEEN THE MOTORS, THEY ARE NOT NEEDED\n\n\n"
 		(exclude_from_sim no)
 		(at 290.322 22.606 0)
 		(effects
