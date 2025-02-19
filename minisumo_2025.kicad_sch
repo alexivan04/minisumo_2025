@@ -6405,12 +6405,6 @@
 		(uuid "04ed30ec-fd3b-4b64-8a2f-ec319da324d8")
 	)
 	(junction
-		(at 91.44 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "068ec840-87f0-462e-9dfc-8621d2607dc4")
-	)
-	(junction
 		(at 76.2 22.86)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6495,12 +6489,6 @@
 		(uuid "31960cc0-5632-4684-8073-955834e49dce")
 	)
 	(junction
-		(at 231.14 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "3419bb6c-7049-4532-8904-565592a2b6ca")
-	)
-	(junction
 		(at 276.86 34.29)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -6559,18 +6547,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "607789f5-a0c7-43e1-bf01-a1d3a985b9aa")
-	)
-	(junction
-		(at 231.14 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "689db508-83a6-4191-8f40-adeb69c88010")
-	)
-	(junction
-		(at 91.44 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "6b4357f8-a423-4337-90a3-a68ffcbfd5a3")
 	)
 	(junction
 		(at 20.32 81.28)
@@ -6884,16 +6860,6 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 146.05) (xy 240.03 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "00c92775-d108-40d3-b0ad-ffd19a765f9d")
-	)
-	(wire
-		(pts
 			(xy 171.45 156.21) (xy 181.61 156.21)
 		)
 		(stroke
@@ -7151,16 +7117,6 @@
 			(type default)
 		)
 		(uuid "229ec233-1d4a-4667-88e6-c433ceaf7d61")
-	)
-	(wire
-		(pts
-			(xy 73.66 149.86) (xy 91.44 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "24ebab33-3a67-48e9-81a8-ed7e129d1e2c")
 	)
 	(wire
 		(pts
@@ -7714,7 +7670,7 @@
 	)
 	(wire
 		(pts
-			(xy 231.14 151.13) (xy 240.03 151.13)
+			(xy 212.09 151.13) (xy 240.03 151.13)
 		)
 		(stroke
 			(width 0)
@@ -7804,7 +7760,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 91.44 144.78)
+			(xy 83.82 144.78) (xy 101.6 144.78)
 		)
 		(stroke
 			(width 0)
@@ -8034,7 +7990,7 @@
 	)
 	(wire
 		(pts
-			(xy 91.44 149.86) (xy 101.6 149.86)
+			(xy 73.66 149.86) (xy 101.6 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8484,7 +8440,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 231.14 146.05)
+			(xy 222.25 146.05) (xy 240.03 146.05)
 		)
 		(stroke
 			(width 0)
@@ -8704,16 +8660,6 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 151.13) (xy 231.14 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "b977331f-fafe-4f5d-8923-7f1461aa7091")
-	)
-	(wire
-		(pts
 			(xy 77.47 154.94) (xy 73.66 154.94)
 		)
 		(stroke
@@ -8781,16 +8727,6 @@
 			(type default)
 		)
 		(uuid "bffcb6a9-33d9-49c5-a869-1b39d6e836f0")
-	)
-	(wire
-		(pts
-			(xy 91.44 144.78) (xy 83.82 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "c0339509-1ea8-44fd-967d-239da63f8c5c")
 	)
 	(wire
 		(pts
@@ -14231,76 +14167,6 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "#PWR089")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C_Small")
-		(at 231.14 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "3621087c-422d-4783-8638-a185422ab6f0")
-		(property "Reference" "C31"
-			(at 236.982 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 238.252 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 231.14 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "538a6bc5-95ba-4c09-aba8-c643d5f69c92")
-		)
-		(pin "2"
-			(uuid "add948e6-8dcf-4521-a294-dfcb344d9eff")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "C31")
 					(unit 1)
 				)
 			)
@@ -20345,76 +20211,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 91.44 147.32 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b46f5f26-f5b5-4a55-8a10-366e2aad4779")
-		(property "Reference" "C30"
-			(at 97.282 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470uF"
-			(at 98.552 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_THT:C_Radial_D10.0mm_H16.0mm_P5.00mm"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 91.44 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ee9f49be-8a10-4961-b96e-d21d3f5661a7")
-		)
-		(pin "2"
-			(uuid "f367e316-eeaf-43c8-b644-c648d18665f3")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "C30")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 19.05 132.08 0)
 		(unit 1)
@@ -22891,7 +22687,6 @@
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "e1fc21f8-338f-47eb-bfbd-9819cf1f1b67")
 		(property "Reference" "J6"
 			(at 165.1 76.1999 0)
@@ -22911,7 +22706,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Connector_Wire:SolderWire-0.5sqmm_1x02_P4.8mm_D0.9mm_OD2.3mm"
+		(property "Footprint" "Connector_AMASS:AMASS_XT30U-F_1x02_P5.0mm_Vertical"
 			(at 166.37 76.2 0)
 			(effects
 				(font
