@@ -685,7 +685,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C14"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "2cd24ed0-2a50-4914-b19b-494c728fc251")
 			(effects
@@ -696,7 +696,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at -1.94 2.615 360)
+			(at -1.94 2.615 0)
 			(layer "F.Fab")
 			(uuid "130724df-0385-4ae5-891d-fa17ec4d92a8")
 			(effects
@@ -851,7 +851,7 @@
 			(uuid "5df6b915-4e01-41df-81d3-f808f3552b4a")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "7cb18b0d-0881-43a5-8d59-f8ba89af3725")
 			(effects
@@ -6029,7 +6029,7 @@
 		(descr "Connector XT30 Vertical Cable Female, https://www.tme.eu/Document/f2d0830114aabe6ea8d4bb128e962790/XT30U-F.pdf")
 		(tags "RC Connector XT30")
 		(property "Reference" "J6"
-			(at 2.5 -4 360)
+			(at 2.5 -4 0)
 			(layer "F.SilkS")
 			(uuid "86b04f8c-b34b-460c-8f0d-d6eaab561e31")
 			(effects
@@ -6040,7 +6040,7 @@
 			)
 		)
 		(property "Value" "BATT_IN"
-			(at 2.5 4 360)
+			(at 2.5 4 0)
 			(layer "F.Fab")
 			(uuid "c3d2c8a3-5827-4a08-b1f1-ba72241e801f")
 			(effects
@@ -6095,7 +6095,7 @@
 		(sheetfile "minisumo_2025.kicad_sch")
 		(attr through_hole)
 		(fp_text user "+"
-			(at 5.03 3.19 360)
+			(at 5.03 3.19 0)
 			(layer "F.SilkS")
 			(uuid "34a185f0-6667-44db-a1ec-68d0b5140763")
 			(effects
@@ -9150,7 +9150,7 @@
 			)
 		)
 		(property "Footprint" "footprints:DBV0005A_N"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "c3e969c8-3bd0-4689-86a9-e0281ebdc704")
@@ -9162,7 +9162,7 @@
 			)
 		)
 		(property "Datasheet" "TLV75730PDBVR"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "20e9a407-6b20-4892-bbb5-ce341e4c34f7")
@@ -9174,7 +9174,7 @@
 			)
 		)
 		(property "Description" ""
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(hide yes)
 			(uuid "e94bbf72-ed3d-4e0c-bdfe-1ae5dcbe0320")
@@ -10014,7 +10014,7 @@
 		)
 		(fp_arc
 			(start 0.723714 -1.445998)
-			(mid 0.776953 -1.423925)
+			(mid 0.776966 -1.423917)
 			(end 0.799455 -1.37084)
 			(stroke
 				(width 0.127)
@@ -10110,7 +10110,7 @@
 		(descr "Capacitor SMD 1210 (3225 Metric), square (rectangular) end terminal, IPC_7351 nominal, (Body size source: IPC-SM-782 page 76, https://www.pcb-3d.com/wordpress/wp-content/uploads/ipc-sm-782a_amendment_1_and_2.pdf), generated with kicad-footprint-generator")
 		(tags "capacitor")
 		(property "Reference" "C15"
-			(at 0 -2.3 360)
+			(at 0 -2.3 0)
 			(layer "F.SilkS")
 			(uuid "ab00ec99-e52b-4124-95be-9d51cf457420")
 			(effects
@@ -10121,7 +10121,7 @@
 			)
 		)
 		(property "Value" "10uF"
-			(at 0 2.3 360)
+			(at 0 2.3 0)
 			(layer "F.Fab")
 			(uuid "0a81cd2b-1a6d-408b-b2f5-0c5371e7204f")
 			(effects
@@ -10276,7 +10276,7 @@
 			(uuid "97b3ea93-22d1-497a-8b6d-ee6dbb13d45b")
 		)
 		(fp_text user "${REFERENCE}"
-			(at 0 0 360)
+			(at 0 0 0)
 			(layer "F.Fab")
 			(uuid "044e0208-2cfd-4137-b897-d4250f23cca4")
 			(effects
@@ -26302,7 +26302,7 @@
 		(uuid "e26b3c0a-f93a-4391-b896-303d42ed802d")
 	)
 	(via
-		(at 136.68 87.48)
+		(at 136.75 87.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26311,7 +26311,7 @@
 		(uuid "1684aa4b-8248-40e4-a2a5-7f654562f00f")
 	)
 	(via
-		(at 134.86 87.49)
+		(at 135 87.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26320,7 +26320,7 @@
 		(uuid "2df7fffe-b439-457c-8212-8079ff921116")
 	)
 	(via
-		(at 134.87 85.56)
+		(at 135 85.56)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26337,16 +26337,16 @@
 		(uuid "3e502172-2b3c-4a15-a1c2-35abfe80d28c")
 	)
 	(via
-		(at 136.68 85.57)
+		(at 136.786567 86.552006)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
 		(free yes)
 		(net 9)
-		(uuid "54319e2f-a87e-4282-ad20-9fcb65792acf")
+		(uuid "48765746-0919-4c98-93de-6b5760fc988a")
 	)
 	(via
-		(at 135.88 87.46)
+		(at 135.88 87.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26355,7 +26355,7 @@
 		(uuid "75c6d8f5-9a18-4f73-8e0d-bd97a994efce")
 	)
 	(via
-		(at 136.71 86.56)
+		(at 136.75 85.6)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
@@ -26381,7 +26381,7 @@
 		(uuid "c4bdcf6d-f015-44cc-a1d8-db82e62a9279")
 	)
 	(via
-		(at 134.88 86.52)
+		(at 135 86.55)
 		(size 0.6)
 		(drill 0.3)
 		(layers "F.Cu" "B.Cu")
