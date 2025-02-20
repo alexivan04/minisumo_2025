@@ -9523,6 +9523,16 @@
 		)
 		(uuid "04ee1c51-ee5f-44bc-a4f3-e442cf7e2d1c")
 	)
+	(label "IN2_2"
+		(at 360.68 67.31 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "05a9a346-728f-47dc-9d2e-dfc1902310d5")
+	)
 	(label "MOTOR2_A"
 		(at 222.25 148.59 180)
 		(effects
@@ -9623,6 +9633,16 @@
 		)
 		(uuid "1b50e622-74fe-4c8c-b165-8553337a998b")
 	)
+	(label "IN1_1"
+		(at 360.68 74.93 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1e393065-2eed-410d-ad20-5db726d1334b")
+	)
 	(label "START"
 		(at 120.65 92.71 0)
 		(effects
@@ -9642,16 +9662,6 @@
 			(justify left bottom)
 		)
 		(uuid "2718b532-4dda-4a8a-b639-9e3f99c511e5")
-	)
-	(label "IN1_2"
-		(at 327.66 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "27cb1ace-b8b5-4486-ada0-b833c98d5c0f")
 	)
 	(label "GPIO7"
 		(at 322.58 64.77 180)
@@ -9844,6 +9854,16 @@
 		)
 		(uuid "40c867d7-454a-433c-8b4f-5b4de299c073")
 	)
+	(label "IN2_1"
+		(at 360.68 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "411377d5-7ba5-4020-a415-a1273a8ca175")
+	)
 	(label "LINE_RIGHT"
 		(at 140.97 209.55 180)
 		(effects
@@ -10013,16 +10033,6 @@
 			(justify right bottom)
 		)
 		(uuid "6614a565-f1df-44fb-adc8-051247645544")
-	)
-	(label "IN1_1"
-		(at 360.68 74.93 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "6befde46-f41f-4f27-b4ef-bdef39cd3a9d")
 	)
 	(label "GPIO6"
 		(at 55.88 54.61 180)
@@ -10474,16 +10484,6 @@
 		)
 		(uuid "af21fd59-8028-4ae6-86eb-cc3716baccee")
 	)
-	(label "IN2_2"
-		(at 163.83 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b36d31b6-8f5a-4a3a-bf28-aa70093e721d")
-	)
 	(label "START"
 		(at 228.6 198.12 0)
 		(effects
@@ -10533,16 +10533,6 @@
 			(justify right bottom)
 		)
 		(uuid "b67f0f84-e7cd-4f8b-9c1f-897b09fbbc1d")
-	)
-	(label "IN1_1"
-		(at 163.83 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b69d7768-a318-4d7a-8fc0-920e8e56080e")
 	)
 	(label "GPIO17"
 		(at 355.6 59.69 180)
@@ -10695,16 +10685,6 @@
 		)
 		(uuid "d0ae9410-4f47-4da2-bfd8-856e6f407c70")
 	)
-	(label "IN1_2"
-		(at 163.83 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "d181ca68-0c43-4c99-8929-75f4e473246d")
-	)
 	(label "GPIO11"
 		(at 322.58 74.93 180)
 		(effects
@@ -10734,6 +10714,16 @@
 			(justify right bottom)
 		)
 		(uuid "d7c0e664-f7fc-4067-ac99-0f24e969ce85")
+	)
+	(label "IN1_2"
+		(at 360.68 69.85 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d8e3cc22-f84c-48ca-946e-9e208617e6fb")
 	)
 	(label "ND2_1"
 		(at 24.13 168.91 270)
@@ -10825,16 +10815,6 @@
 		)
 		(uuid "f1bf945d-880c-4653-a43f-f7f0196ed288")
 	)
-	(label "IN2_1"
-		(at 360.68 72.39 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "f2af021a-2083-4a7f-abb1-fe1dd4bc6fbe")
-	)
 	(label "GPIO1"
 		(at 322.58 52.07 180)
 		(effects
@@ -10915,16 +10895,6 @@
 		)
 		(uuid "fc81681c-60fe-4572-aba3-ba22b72b3563")
 	)
-	(label "IN2_1"
-		(at 163.83 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "feb27700-8632-4ed5-b00c-39e5fe068808")
-	)
 	(label "DISTANCE_RF"
 		(at 195.58 200.66 0)
 		(effects
@@ -10934,16 +10904,6 @@
 			(justify left bottom)
 		)
 		(uuid "ff7f635c-a980-495c-96c3-523cbb3c3c41")
-	)
-	(label "IN2_2"
-		(at 327.66 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ffba063c-7df7-45c3-b31a-30ab056428de")
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
@@ -13009,71 +12969,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3V3")
-		(at 48.26 121.92 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "1b88af45-887f-4ecc-b9c8-3a52c5968898")
-		(property "Reference" "#PWR036"
-			(at 48.26 125.73 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3V3"
-			(at 48.26 118.364 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 48.26 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 48.26 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3V3\""
-			(at 48.26 121.92 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "90f1773e-7490-42e7-a637-5d72f7a52012")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR036")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Switch:SW_Push_Dual_x2")
 		(at 25.4 77.47 0)
 		(unit 1)
@@ -15114,6 +15009,72 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "#PWR093")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+BATT")
+		(at 48.26 121.92 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4aa02b7d-2194-4f65-b035-4b7b7f7a494c")
+		(property "Reference" "#PWR036"
+			(at 48.26 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 48.26 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 48.26 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "4211abc2-b0a0-4ea0-8ecb-b555d895176b")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR036")
 					(unit 1)
 				)
 			)
@@ -19685,6 +19646,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+BATT")
+		(at 186.69 123.19 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "a5d47938-a8ca-4432-8304-e4bfefc98c11")
+		(property "Reference" "#PWR041"
+			(at 186.69 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+BATT"
+			(at 186.69 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 186.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 186.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+BATT\""
+			(at 186.69 123.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "982c6503-6fc3-4f9c-8426-6cf3cfb992ae")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR041")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 133.35 83.82 0)
 		(unit 1)
@@ -21804,72 +21831,6 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "#PWR012")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+BATT")
-		(at 186.69 123.19 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "d2a4c690-f430-434e-b1d1-cfc1b1dda68b")
-		(property "Reference" "#PWR041"
-			(at 186.69 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+BATT"
-			(at 186.69 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 186.69 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 186.69 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+BATT\""
-			(at 186.69 123.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "72acbc5d-71c0-4f67-a362-b9f13844dd8e")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR041")
 					(unit 1)
 				)
 			)
