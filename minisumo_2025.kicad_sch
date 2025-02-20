@@ -9422,7 +9422,7 @@
 		)
 		(uuid "36b8cc8a-5adc-4828-b4bd-3bf5cfca6378")
 	)
-	(text "TODO:\n - DO NOT PLACE THE BIG CAPACITORS BETWEEN THE MOTORS, THEY ARE NOT NEEDED\n\n\n"
+	(text "TODO:\n - maybe make clearance bigger between batt plane and gnd\n\n\n\n"
 		(exclude_from_sim no)
 		(at 290.322 22.606 0)
 		(effects
@@ -9553,16 +9553,6 @@
 		)
 		(uuid "07dd9712-9e6e-41f3-92be-06fea53bb1a4")
 	)
-	(label "DISTANCE_L_OUT"
-		(at 87.63 229.87 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "0add0416-2323-4cd7-a423-38d5d7a9bf13")
-	)
 	(label "ESP_EN"
 		(at 45.72 34.29 0)
 		(effects
@@ -9602,16 +9592,6 @@
 			(justify left bottom)
 		)
 		(uuid "13db9734-657e-4cec-8129-ec220bdf47ab")
-	)
-	(label "DISTANCE_R"
-		(at 195.58 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "15b20804-b354-4021-8e7f-54c0b9f724b9")
 	)
 	(label "LINE_LEFT"
 		(at 142.24 267.97 180)
@@ -9653,6 +9633,16 @@
 		)
 		(uuid "1dc9ccc7-39fe-4e64-a0dd-86470ca68844")
 	)
+	(label "DISTANCE_R"
+		(at 125.73 229.87 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "22c28317-b1ae-4b2b-b4d4-c4836003ffd5")
+	)
 	(label "START"
 		(at 120.65 92.71 0)
 		(effects
@@ -9662,16 +9652,6 @@
 			(justify left bottom)
 		)
 		(uuid "24cf9a2b-d11b-4f05-9d26-f5a0690ad712")
-	)
-	(label "SERVO_PWM"
-		(at 228.6 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "2718b532-4dda-4a8a-b639-9e3f99c511e5")
 	)
 	(label "GPIO7"
 		(at 322.58 64.77 180)
@@ -9693,6 +9673,16 @@
 		)
 		(uuid "2bc2fa5e-c58d-4265-9790-cced9d4d86a9")
 	)
+	(label "DISTANCE_L90_OUT"
+		(at 87.63 247.65 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "2c9d4d03-68a5-407d-a2fc-500d2f37329a")
+	)
 	(label "XSHUT"
 		(at 50.8 207.01 180)
 		(effects
@@ -9712,16 +9702,6 @@
 			(justify right bottom)
 		)
 		(uuid "2f527b4b-7d7d-4ac8-86d7-a151b189fb35")
-	)
-	(label "DISTANCE_RF"
-		(at 125.73 242.57 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "31bff31e-d904-4386-8be1-4e745d000399")
 	)
 	(label "IN2_1"
 		(at 34.29 149.86 0)
@@ -9803,15 +9783,15 @@
 		)
 		(uuid "3715815d-c315-471c-9bad-1c0b341789d8")
 	)
-	(label "DISTANCE_R90"
-		(at 125.73 247.65 0)
+	(label "SERVO_PWM"
+		(at 360.68 59.69 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "382fc8e5-5c2f-4541-a531-00d818cdf15d")
+		(uuid "389407cf-13a7-4000-98fc-cc6320a41c5d")
 	)
 	(label "MOTOR1_A"
 		(at 83.82 147.32 180)
@@ -9822,6 +9802,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a4ab199-fbbb-42e1-b492-bf34944f76fc")
+	)
+	(label "DISTANCE_L90"
+		(at 360.68 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a74d766-1ba9-466a-8394-a375b2d4182a")
 	)
 	(label "GPIO13"
 		(at 55.88 72.39 180)
@@ -9854,15 +9844,15 @@
 		)
 		(uuid "40462cd5-21b7-4245-9238-79075fd55c5f")
 	)
-	(label "DISTANCE_RF_OUT"
-		(at 87.63 242.57 180)
+	(label "DISTANCE_L"
+		(at 360.68 54.61 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left bottom)
 		)
-		(uuid "40c867d7-454a-433c-8b4f-5b4de299c073")
+		(uuid "409bc6b1-2f01-4f26-b199-a6e9f558b02e")
 	)
 	(label "LINE_RIGHT"
 		(at 140.97 209.55 180)
@@ -9874,15 +9864,15 @@
 		)
 		(uuid "413a4a13-d367-4380-9b8e-56d9037fc246")
 	)
-	(label "DISTANCE_LF"
-		(at 212.09 200.66 0)
+	(label "LINE_RIGHT"
+		(at 360.68 62.23 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "4a4defef-f96f-4354-84e4-5fbeb35c3beb")
+		(uuid "44010264-4db5-4dc0-a068-d1255d904b2d")
 	)
 	(label "GPIO37"
 		(at 355.6 72.39 180)
@@ -9954,16 +9944,6 @@
 		)
 		(uuid "5cb6dfb9-a9dd-4b9d-bedb-851b87507abf")
 	)
-	(label "LINE_LEFT"
-		(at 212.09 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "5dd1d9f3-0ffc-428a-b558-8910962077d5")
-	)
 	(label "MOTOR2_B"
 		(at 222.25 151.13 180)
 		(effects
@@ -9974,15 +9954,15 @@
 		)
 		(uuid "5f9c58d8-aeb6-45a4-b6d1-57be1bc76590")
 	)
-	(label "DISTANCE_R90_OUT"
-		(at 87.63 247.65 180)
+	(label "DISTANCE_L_OUT"
+		(at 87.63 245.11 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "62468023-0e10-4ca9-b75a-202b9b9c76b8")
+		(uuid "6192d7fa-86c8-4848-b169-753695e89219")
 	)
 	(label "GPIO2"
 		(at 322.58 54.61 180)
@@ -10003,6 +9983,16 @@
 			(justify left bottom)
 		)
 		(uuid "63ad5d96-bcea-4a9d-b3cc-7378d85f4596")
+	)
+	(label "DISTANCE_RF"
+		(at 327.66 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "63ca7948-7963-44bf-9ff6-6d3c48f6d1b4")
 	)
 	(label "GPIO16"
 		(at 55.88 80.01 180)
@@ -10034,6 +10024,16 @@
 		)
 		(uuid "6614a565-f1df-44fb-adc8-051247645544")
 	)
+	(label "DISTANCE_R"
+		(at 327.66 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "66d91809-0171-4a5b-9a8b-ee8407775085")
+	)
 	(label "GPIO6"
 		(at 55.88 54.61 180)
 		(effects
@@ -10043,6 +10043,16 @@
 			(justify right bottom)
 		)
 		(uuid "6ddb7064-a29c-44ae-af16-012605feb796")
+	)
+	(label "DISTANCE_R90"
+		(at 327.66 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "6dffbf63-d97b-4ff3-ab50-d1986eab9d52")
 	)
 	(label "DISTANCE_R_OUT"
 		(at 59.69 229.87 180)
@@ -10064,25 +10074,15 @@
 		)
 		(uuid "6e5c4003-a2ac-4b2e-b7c7-8cccc0465155")
 	)
-	(label "DISTANCE_L90_OUT"
-		(at 87.63 227.33 180)
+	(label "DISTANCE_LF_OUT"
+		(at 87.63 242.57 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "6e99a129-59ca-4c6d-bbf5-4f4cca1f32da")
-	)
-	(label "DISTANCE_L"
-		(at 125.73 229.87 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "740b2eb2-50ae-470e-8c20-6615b56f27e2")
+		(uuid "74e8623f-b37a-438d-b433-0ad26455e4a9")
 	)
 	(label "MOTOR1_B"
 		(at 83.82 149.86 180)
@@ -10214,15 +10214,15 @@
 		)
 		(uuid "820c2048-c036-424f-bf93-93432a3325b0")
 	)
-	(label "DISTANCE_L90"
-		(at 125.73 227.33 0)
+	(label "LINE_LEFT"
+		(at 327.66 67.31 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "8583b259-4c1c-42f1-8980-5286829172cf")
+		(uuid "825fa35a-3646-40dc-ac55-519ea5658ecc")
 	)
 	(label "INV_1"
 		(at 24.13 129.54 270)
@@ -10243,6 +10243,16 @@
 			(justify right bottom)
 		)
 		(uuid "88bc1837-b938-46be-9f3f-a8e1ea62fd37")
+	)
+	(label "DISTANCE_RF_OUT"
+		(at 87.63 232.41 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8b630669-2389-40cd-a918-b508800bb695")
 	)
 	(label "D+"
 		(at 104.14 49.53 0)
@@ -10283,6 +10293,16 @@
 			(justify right bottom)
 		)
 		(uuid "95947a3d-e26d-4b6d-92c5-c939dd54e508")
+	)
+	(label "DISTANCE_L90"
+		(at 125.73 247.65 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "95e54a05-d77f-42e2-a0d7-f1e0c9802dab")
 	)
 	(label "GPIO36"
 		(at 86.36 54.61 0)
@@ -10334,6 +10354,16 @@
 		)
 		(uuid "9b3c2bfa-164c-4c43-9859-62aec734cd1e")
 	)
+	(label "DISTANCE_R_OUT"
+		(at 87.63 229.87 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "9b780f21-15a5-447a-9f32-a1ab5394b820")
+	)
 	(label "DISTANCE_RF_OUT"
 		(at 60.96 241.3 180)
 		(effects
@@ -10374,16 +10404,6 @@
 		)
 		(uuid "9ee5ab5f-b7b1-4ed2-a6cf-24a965d76e7c")
 	)
-	(label "DISTANCE_LF"
-		(at 125.73 232.41 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a324948a-f2d7-40a1-b733-ce2a984070a0")
-	)
 	(label "GPIO14"
 		(at 55.88 74.93 180)
 		(effects
@@ -10403,16 +10423,6 @@
 			(justify right bottom)
 		)
 		(uuid "a3e8f622-33e0-443e-98de-54e845c25108")
-	)
-	(label "DISTANCE_R"
-		(at 125.73 245.11 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a4517131-63c9-4def-a17b-965afbe69bc6")
 	)
 	(label "GPIO13"
 		(at 322.58 80.01 180)
@@ -10434,25 +10444,15 @@
 		)
 		(uuid "a5a284b7-1555-4482-b692-7b733b074636")
 	)
-	(label "DISTANCE_R90"
-		(at 195.58 195.58 0)
+	(label "DISTANCE_LF"
+		(at 327.66 64.77 0)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify left bottom)
 		)
-		(uuid "a7400679-3914-493f-8a62-5768ba43ec30")
-	)
-	(label "LINE_RIGHT"
-		(at 195.58 203.2 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a845b7c6-75de-4104-82f4-9bde3f251cbf")
+		(uuid "a823bfed-2dbb-4f2e-b4d8-9e2e57cc676c")
 	)
 	(label "DISTANCE_INTR"
 		(at 50.8 209.55 180)
@@ -10483,6 +10483,26 @@
 			(justify right bottom)
 		)
 		(uuid "af21fd59-8028-4ae6-86eb-cc3716baccee")
+	)
+	(label "DISTANCE_LF"
+		(at 125.73 242.57 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "af3671d7-0fc0-4deb-a54d-636406c08c07")
+	)
+	(label "DISTANCE_L"
+		(at 125.73 245.11 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "b245e2bb-4806-409e-a488-fc029ffe1c34")
 	)
 	(label "START"
 		(at 228.6 198.12 0)
@@ -10543,16 +10563,6 @@
 			(justify right bottom)
 		)
 		(uuid "b7e04e31-2fd3-43e4-a732-ded0eab14ad5")
-	)
-	(label "DISTANCE_L"
-		(at 212.09 198.12 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "b89b139a-e369-425c-9363-7b7ceb78adf3")
 	)
 	(label "DISTANCE_LF_OUT"
 		(at 60.96 275.59 180)
@@ -10645,16 +10655,6 @@
 		)
 		(uuid "c82f71c8-c586-4173-893a-3ecc16bf53d5")
 	)
-	(label "DISTANCE_L90"
-		(at 212.09 195.58 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c8395879-3ecc-4706-aed7-b257750da63a")
-	)
 	(label "GPIO12"
 		(at 55.88 69.85 180)
 		(effects
@@ -10685,16 +10685,6 @@
 		)
 		(uuid "d04c0aad-d836-403c-9185-297f7fce6995")
 	)
-	(label "DISTANCE_R_OUT"
-		(at 87.63 245.11 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "d0ae9410-4f47-4da2-bfd8-856e6f407c70")
-	)
 	(label "GPIO11"
 		(at 322.58 74.93 180)
 		(effects
@@ -10714,6 +10704,16 @@
 			(justify right bottom)
 		)
 		(uuid "d38b26ba-3fa3-4d9e-802e-b8e5e569e88a")
+	)
+	(label "DISTANCE_RF"
+		(at 125.73 232.41 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "d6da5be4-e531-4341-b6fb-39ae49616efa")
 	)
 	(label "GPIO18"
 		(at 355.6 62.23 180)
@@ -10765,6 +10765,26 @@
 		)
 		(uuid "e4d78af5-d56f-48da-acea-866527f555f3")
 	)
+	(label "DISTANCE_R90_OUT"
+		(at 87.63 227.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "e75f8198-1e70-4c24-a32a-c880a9016008")
+	)
+	(label "DISTANCE_R90"
+		(at 125.73 227.33 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "eb743fba-76e4-480c-8ff5-16af9a66cd26")
+	)
 	(label "CCP_2"
 		(at 186.69 132.08 0)
 		(effects
@@ -10794,16 +10814,6 @@
 			(justify left bottom)
 		)
 		(uuid "eeb053df-db44-4df9-ae34-00b84e4c9206")
-	)
-	(label "DISTANCE_LF_OUT"
-		(at 87.63 232.41 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "f01b01a6-d76a-4715-becf-c977f7df6541")
 	)
 	(label "GPIO35"
 		(at 86.36 52.07 0)
@@ -10894,16 +10904,6 @@
 			(justify left bottom)
 		)
 		(uuid "fc81681c-60fe-4572-aba3-ba22b72b3563")
-	)
-	(label "DISTANCE_RF"
-		(at 195.58 200.66 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ff7f635c-a980-495c-96c3-523cbb3c3c41")
 	)
 	(symbol
 		(lib_id "Device:LED_Small")
