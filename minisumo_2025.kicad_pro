@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.5
         }
       },
       "diff_pair_dimensions": [
@@ -58,15 +58,7 @@
           "width": 0.0
         }
       ],
-      "drc_exclusions": [
-        "track_dangling|119500000|121600000|f517c946-e146-4bf7-af90-9aaafe0315f8|00000000-0000-0000-0000-000000000000",
-        "track_dangling|123000000|125100000|052f3c6a-3d40-4520-b32a-400efdfaf297|00000000-0000-0000-0000-000000000000",
-        "track_dangling|125200000|123400000|c813f583-5b66-40c5-b4f5-f7af6291cdc6|00000000-0000-0000-0000-000000000000",
-        "track_dangling|126100000|121600000|59ca8cff-fe63-458b-934a-4d2496ed818f|00000000-0000-0000-0000-000000000000",
-        "track_dangling|126100000|125100000|07337d40-b260-4160-b40c-11268ee0a74c|00000000-0000-0000-0000-000000000000",
-        "track_dangling|126700000|125100000|57a6db29-7e43-4ae9-8a56-f166ce859058|00000000-0000-0000-0000-000000000000",
-        "track_dangling|130300000|125100000|8052e1ed-ad15-4adf-95af-f729657cf0c3|00000000-0000-0000-0000-000000000000"
-      ],
+      "drc_exclusions": [],
       "meta": {
         "version": 2
       },
@@ -502,7 +494,7 @@
   },
   "schematic": {
     "annotate_start_num": 0,
-    "bom_export_filename": "",
+    "bom_export_filename": "minisumo_2025.csv",
     "bom_fmt_presets": [],
     "bom_fmt_settings": {
       "field_delimiter": ",",
@@ -515,7 +507,7 @@
     },
     "bom_presets": [],
     "bom_settings": {
-      "exclude_dnp": false,
+      "exclude_dnp": true,
       "fields_ordered": [
         {
           "group_by": false,
@@ -618,13 +610,19 @@
           "label": "Description",
           "name": "Description",
           "show": false
+        },
+        {
+          "group_by": false,
+          "label": "LCSC Part Number",
+          "name": "LCSC Part Number",
+          "show": true
         }
       ],
       "filter_string": "",
-      "group_symbols": true,
+      "group_symbols": false,
       "name": "",
       "sort_asc": true,
-      "sort_field": "Reference"
+      "sort_field": "Value"
     },
     "connection_grid_size": 50.0,
     "drawing": {
@@ -654,6 +652,14 @@
       "version": 1
     },
     "net_format_name": "",
+    "ngspice": {
+      "fix_include_paths": true,
+      "meta": {
+        "version": 0
+      },
+      "model_mode": 4,
+      "workbook_filename": ""
+    },
     "page_layout_descr_file": "",
     "plot_directory": "",
     "spice_current_sheet_as_root": false,

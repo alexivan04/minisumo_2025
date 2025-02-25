@@ -11572,6 +11572,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 27.94 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "a3bb9f35-c5b8-4b48-b790-7e35fea472da")
 		)
@@ -11631,6 +11640,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25531"
 			(at 80.01 154.94 0)
 			(effects
 				(font
@@ -11843,6 +11861,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C92759"
+			(at 181.61 66.04 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ba202a4-ac8e-441c-b185-7b09889a4c30")
 		)
@@ -11865,7 +11892,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "0b7eb157-cf24-4954-b7b2-136f15d2e3d9")
 		(property "Reference" "J4"
@@ -11905,6 +11932,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 116.84 146.05 0)
 			(effects
 				(font
@@ -12052,6 +12088,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C15999"
+			(at 113.03 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b99e014a-faeb-4d60-82d0-8711011bcbe5")
 		)
@@ -12134,6 +12179,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C77050"
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "78d038d0-2c24-49e0-b8c7-108ac5f9554f")
 		)
@@ -12156,7 +12210,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "0da4f036-b083-4eb5-b7cf-1d1b4eb2988d")
 		(property "Reference" "JP2"
 			(at 154.94 119.38 0)
@@ -12194,6 +12248,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -12497,7 +12560,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "123c876a-fb64-4c0f-bbd0-4b62d6fbe4b1")
 		(property "Reference" "J5"
@@ -12537,6 +12600,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
+			(at 255.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 255.27 147.32 0)
 			(effects
 				(font
@@ -12633,7 +12705,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "138d4887-1066-48c1-b0bf-8fd8c2004977")
 		(property "Reference" "J10"
 			(at 30.48 214.6299 0)
@@ -12672,6 +12744,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 31.75 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 31.75 215.9 0)
 			(effects
 				(font
@@ -12816,6 +12897,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 27.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c05e2cae-e570-42b3-8d33-aedd6bb2367d")
 		)
@@ -12838,7 +12928,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "15cbcc08-0c10-4541-899f-9cc6c59a0eb3")
 		(property "Reference" "JP4"
 			(at 154.94 138.43 0)
@@ -12876,6 +12966,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 157.48 138.43 0)
 			(effects
 				(font
@@ -12954,6 +13053,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25890"
+			(at 128.27 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "06626ae0-537b-40d2-aee4-8dcf3758278a")
 		)
@@ -13016,6 +13124,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 101.6 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -13161,6 +13278,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25531"
+			(at 31.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33e073d8-4acb-4012-8d9e-21639063420c")
 		)
@@ -13296,6 +13422,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C389355"
+			(at 276.86 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "db644111-9afc-455e-85c7-342137981d3b")
 		)
@@ -13423,6 +13558,15 @@
 			)
 		)
 		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C720477"
 			(at 25.4 77.47 0)
 			(effects
 				(font
@@ -13571,6 +13715,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 215.9 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "2e74733e-6907-4075-b0cb-77d37d56bc57")
 		)
@@ -13630,6 +13783,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 124.46 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C4109"
 			(at 124.46 209.55 0)
 			(effects
 				(font
@@ -13705,6 +13867,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25531"
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f075ec3-9803-4869-8d3d-fe89957cdc87")
 		)
@@ -13739,7 +13910,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8V"
+		(property "Value" "8.2V"
 			(at 320.04 123.1899 90)
 			(effects
 				(font
@@ -13748,7 +13919,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 317.5 121.92 90)
 			(effects
 				(font
@@ -13767,6 +13938,15 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
+			(at 317.5 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C19077406"
 			(at 317.5 121.92 0)
 			(effects
 				(font
@@ -13797,7 +13977,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "1f61a0c8-c85c-4447-a978-451564466ef4")
 		(property "Reference" "TP13"
 			(at 167.386 171.196 90)
@@ -13836,6 +14016,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 172.72 170.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 172.72 170.18 0)
 			(effects
 				(font
@@ -14110,6 +14299,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2286"
+			(at 327.66 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "769b8867-9375-45e0-953f-ec5ae5aea25e")
 		)
@@ -14143,7 +14341,7 @@
 				)
 			)
 		)
-		(property "Value" "DRIVER 2"
+		(property "Value" "MC33926PNB"
 			(at 196.85 133.35 0)
 			(effects
 				(font
@@ -14266,6 +14464,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1556870"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -14423,6 +14630,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1614"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a790699-80ff-47bb-b3af-a92c57f5aa15")
 		)
@@ -14445,7 +14661,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "2650ffea-33c1-45ae-bd88-0ca6df9fde1e")
 		(property "Reference" "TP11"
 			(at 163.576 131.064 90)
@@ -14484,6 +14700,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 168.91 130.81 0)
 			(effects
 				(font
@@ -14616,6 +14841,15 @@
 			)
 		)
 		(property "Description" "USB 2.0-only 16P Type-C Receptacle connector"
+			(at 139.7 40.64 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C165948"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -14891,7 +15125,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "39420b1e-28dd-49ed-9438-23c3f81067bc")
 		(property "Reference" "J14"
 			(at 29.718 260.096 0)
@@ -14936,6 +15170,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 33.02 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b1e98891-6d28-4e75-9a12-23f5e99504b7")
 		)
@@ -14961,7 +15204,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3beb88c7-63df-4cc1-b13b-f3a7ae8c4c19")
 		(property "Reference" "TP6"
 			(at 27.178 110.49 90)
@@ -15000,6 +15243,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 33.02 110.49 0)
 			(effects
 				(font
@@ -15095,7 +15347,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "3d487135-8a21-404c-badf-68b40c91fd4f")
 		(property "Reference" "J2"
 			(at 110.49 77.4699 0)
@@ -15134,6 +15386,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 111.76 78.74 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -15300,7 +15561,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "428183ff-7813-4ed9-a077-ac11c19dfea1")
 		(property "Reference" "TP12"
 			(at 166.116 151.13 90)
@@ -15339,6 +15600,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 171.45 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 171.45 149.86 0)
 			(effects
 				(font
@@ -15676,6 +15946,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 133.35 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "68f76167-8c01-4e56-b585-31192b7a75cd")
 		)
@@ -15878,6 +16157,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bba49507-322d-469a-a35a-3595e65b9063")
 		)
@@ -15940,6 +16228,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 143.51 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C437568"
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -16216,6 +16513,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C437568"
+			(at 161.29 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94d731dd-062e-413e-8fd8-83b9d081eda9")
 		)
@@ -16275,6 +16581,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 266.7 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C77101"
 			(at 266.7 36.83 0)
 			(effects
 				(font
@@ -16409,6 +16724,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 276.86 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C77050"
 			(at 276.86 36.83 0)
 			(effects
 				(font
@@ -16574,7 +16898,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "56514078-8438-4d1f-b944-880a595dec65")
 		(property "Reference" "J12"
 			(at 30.988 236.982 0)
@@ -16619,6 +16943,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 33.02 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "bfcee914-3a3f-464b-bf60-ace83c7c0011")
 		)
@@ -16644,7 +16977,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "56ea02c6-bf78-4d01-9894-dba1f8ff62f4")
 		(property "Reference" "TP1"
 			(at 332.74 78.7399 90)
@@ -16691,6 +17024,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 327.66 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f58b5488-4c83-474d-9589-9f19e4b6d6e0")
 		)
@@ -16710,7 +17052,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "58aa3906-33dc-454c-8560-5511b7666d6c")
 		(property "Reference" "TP3"
 			(at 365.76 80.0099 90)
@@ -16757,6 +17099,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 360.68 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "978b8c5b-8938-4bfb-8971-d48b5372289b")
 		)
@@ -16776,7 +17127,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5905d200-d079-48e4-a969-50390fc3d222")
 		(property "Reference" "TP4"
 			(at 365.76 63.4999 90)
@@ -16815,6 +17166,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 360.68 63.5 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 360.68 63.5 0)
 			(effects
 				(font
@@ -16907,7 +17267,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5c58bc21-3f8b-4219-874b-0e372b867186")
 		(property "Reference" "JP8"
 			(at 154.94 177.8 0)
@@ -16945,6 +17305,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 157.48 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 157.48 177.8 0)
 			(effects
 				(font
@@ -16996,7 +17365,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -17015,6 +17384,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 119.38 33.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25905"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -17157,6 +17535,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C844504"
+			(at 236.22 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "93d86acc-5d8f-4968-89e0-ce3f7da8195d")
 		)
@@ -17180,7 +17567,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "5ddbfd2e-2945-4908-9bdd-720558839c77")
 		(property "Reference" "J3"
 			(at 109.728 88.646 0)
@@ -17217,6 +17604,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
+			(at 111.76 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -17291,6 +17687,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C11702"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -17435,6 +17840,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C485517"
+			(at 247.65 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "18196a14-d264-461f-afda-c937119b0f34")
 		)
@@ -17467,7 +17881,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60472efc-2156-4715-9363-3164c60b9fcb")
 		(property "Reference" "J11"
 			(at 28.956 225.806 0)
@@ -17504,6 +17918,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 31.75 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 31.75 227.33 0)
 			(effects
 				(font
@@ -17582,6 +18005,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25890"
+			(at 129.54 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "15f404cf-49a2-4f3d-852d-8ca3b4097639")
 		)
@@ -17605,7 +18037,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "60ac0241-edfd-4964-8b57-a9d6f35b5e7a")
 		(property "Reference" "J15"
 			(at 93.98 263.652 0)
@@ -17642,6 +18074,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 96.52 265.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 96.52 265.43 0)
 			(effects
 				(font
@@ -17856,6 +18297,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25102"
+			(at 317.5 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "f37bf9ee-44a4-44c4-95ee-61a8f88c9c5b")
 		)
@@ -17989,6 +18439,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 27.94 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "63d05a53-7345-4a8c-a66f-7321a4a76d9b")
 		)
@@ -18049,6 +18508,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 166.37 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C11702"
 			(at 166.37 157.48 0)
 			(effects
 				(font
@@ -18124,6 +18592,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C77101"
+			(at 246.38 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ebc2675-2465-4548-a93f-ca037b48c00c")
 		)
@@ -18146,7 +18623,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "67634979-f6ff-4f3c-a6a6-1fb8129b1ee7")
 		(property "Reference" "TP10"
 			(at 164.846 111.76 90)
@@ -18185,6 +18662,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 170.18 110.49 0)
 			(effects
 				(font
@@ -18260,6 +18746,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e62ff8-3763-48eb-a274-a19dba8fb46b")
 		)
@@ -18282,7 +18777,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6d53c9e9-2fe7-4a37-8daf-13887b550ef7")
 		(property "Reference" "JP3"
 			(at 16.51 137.16 0)
@@ -18320,6 +18815,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -18484,7 +18988,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "6fb9d6a6-b233-4990-bd91-a56146d75584")
 		(property "Reference" "JP1"
 			(at 16.51 118.11 0)
@@ -18522,6 +19026,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 19.05 118.11 0)
 			(effects
 				(font
@@ -18707,7 +19220,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -18726,6 +19239,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 119.38 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25905"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -18756,7 +19278,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "758194e1-c3d5-47cd-8e38-378744e98df5")
 		(property "Reference" "JP5"
 			(at 16.51 156.21 0)
@@ -18794,6 +19316,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 19.05 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 19.05 156.21 0)
 			(effects
 				(font
@@ -19076,6 +19607,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C77050"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "8937883c-b9a2-4233-b9f7-baec39ce1621")
 		)
@@ -19230,7 +19770,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "7f9a976f-7d27-4cd2-8000-5b593c9c6fb0")
 		(property "Reference" "TP2"
 			(at 365.76 77.4699 90)
@@ -19277,6 +19817,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 360.68 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bf23ef47-2a15-44c7-be73-102f84e5ceec")
 		)
@@ -19297,7 +19846,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "8059db98-b9ee-4512-a6d1-769c4dc5067e")
 		(property "Reference" "J16"
 			(at 29.972 272.288 0)
@@ -19334,6 +19883,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 33.02 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 33.02 273.05 0)
 			(effects
 				(font
@@ -19480,6 +20038,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C77050"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "08b70837-be38-4d3d-a9a4-e0f25ed57574")
 		)
@@ -19539,6 +20106,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 236.22 43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C481918"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -19683,6 +20259,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C2286"
+			(at 292.1 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed59ab90-edc2-4a2a-8b3e-ff0332ef9d9c")
 		)
@@ -19726,7 +20311,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 327.66 121.92 90)
 			(effects
 				(font
@@ -19745,6 +20330,15 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
+			(at 327.66 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C115277"
 			(at 327.66 121.92 0)
 			(effects
 				(font
@@ -20086,6 +20680,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 68.58 241.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "f80b4df4-4843-494e-aa26-f8c58c5e319f")
 		)
@@ -20285,6 +20888,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C841384"
+			(at 199.39 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6cd6cb70-9ebb-43d8-9ca1-0ba7b8d0aaa6")
 		)
@@ -20375,6 +20987,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 111.76 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c133cd3a-445a-4f44-a4e4-184d25056204")
 		)
@@ -20408,7 +21029,7 @@
 				)
 			)
 		)
-		(property "Value" "DRIVER 1"
+		(property "Value" "MC33926PNB"
 			(at 58.42 132.08 0)
 			(effects
 				(font
@@ -20531,6 +21152,15 @@
 					(size 1.27 1.27)
 				)
 				(justify bottom)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1556870"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 				(hide yes)
 			)
 		)
@@ -20688,6 +21318,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1770"
+			(at 172.72 29.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "598ea028-03f1-4008-b0e4-6e7fd8edc37b")
 		)
@@ -20755,6 +21394,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 25.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "6df8f5af-8b3e-40ac-a9eb-3e5ea75c85e3")
 		)
@@ -20778,7 +21426,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "97169ae9-14de-41db-bcbb-4e2b87a2d9e1")
 		(property "Reference" "J8"
 			(at 28.448 200.914 0)
@@ -20815,6 +21463,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
+			(at 31.75 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 31.75 201.93 0)
 			(effects
 				(font
@@ -20903,6 +21560,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C720477"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "72070547-cb9a-4197-9cf0-c7f6cc2bfef0")
 		)
@@ -20971,6 +21637,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1614"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -21248,6 +21923,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C14445"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90aa2f41-8314-4597-8f01-00ddc5d9af2f")
 		)
@@ -21270,7 +21954,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "a2e0dbc0-a575-473b-9bf8-4c3bb637aecb")
 		(property "Reference" "TP9"
 			(at 27.686 168.402 90)
@@ -21309,6 +21993,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 33.02 168.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 33.02 168.91 0)
 			(effects
 				(font
@@ -21980,6 +22673,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C90706"
+			(at 127 247.65 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "19"
 			(uuid "527606cc-005d-4f53-9c7d-6c20e814d10c")
 		)
@@ -22103,6 +22805,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 144.78 240.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b29a5b0a-1b16-4d44-90fb-075809844c7b")
 		)
@@ -22173,6 +22884,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25131"
+			(at 292.1 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "718c5c95-3b06-459b-94b5-169e22470f55")
 		)
@@ -22235,6 +22955,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C77050"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -22407,7 +23136,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "420"
+		(property "Value" "412"
 			(at 309.88 128.2699 0)
 			(effects
 				(font
@@ -22435,6 +23164,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 307.34 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25112"
 			(at 307.34 127 0)
 			(effects
 				(font
@@ -22576,6 +23314,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 166.37 177.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "965f8204-e49c-49d2-a174-e6321ce63ece")
 		)
@@ -22635,6 +23382,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 256.54 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C77101"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -22703,6 +23459,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
 			(at 25.4 35.56 0)
 			(effects
 				(font
@@ -22781,6 +23546,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C25087"
+			(at 327.66 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "1c11ea6b-4e07-40a1-90d5-ba2b85975609")
 		)
@@ -22803,7 +23577,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c3ea7550-ff15-4bcf-84d6-0bea0ce7e51b")
 		(property "Reference" "JP6"
 			(at 154.94 157.48 0)
@@ -22841,6 +23615,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 157.48 157.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -22989,6 +23772,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C389355"
+			(at 102.87 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b26154e0-8d04-40b6-910e-7a3427dbc69a")
 		)
@@ -23056,6 +23848,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C437568"
+			(at 231.14 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cb78de6-50c6-401e-aea7-26a085eb6dee")
 		)
@@ -23078,7 +23879,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "c9320c19-aad2-4aff-8df0-42338c28899b")
 		(property "Reference" "TP7"
 			(at 25.908 127.762 90)
@@ -23117,6 +23918,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 31.75 129.54 0)
 			(effects
 				(font
@@ -23320,6 +24130,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C5329540"
+			(at 228.6 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d5f377c0-5e7f-4939-be49-a8b86e9f4533")
 		)
@@ -23342,7 +24161,7 @@
 		(exclude_from_sim yes)
 		(in_bom no)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "cd6f5cee-687b-47c8-9678-4c207e302c0a")
 		(property "Reference" "JP7"
 			(at 16.51 176.53 0)
@@ -23380,6 +24199,15 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
+			(at 19.05 176.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 19.05 176.53 0)
 			(effects
 				(font
@@ -23501,7 +24329,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -23520,6 +24348,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C70225"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -23730,6 +24567,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C437568"
+			(at 265.43 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0239503a-f1ae-4770-8a4b-43f1ed1c5a4a")
 		)
@@ -23791,6 +24637,15 @@
 			)
 		)
 		(property "Description" "RF Module, ESP32-S3 SoC, Wi-Fi 802.11b/g/n, Bluetooth, BLE, 32-bit, 3.3V, onboard antenna, SMD"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C701341"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -24051,6 +24906,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C1525"
+			(at 240.03 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0de362a0-f0c9-4d7e-93f3-468cf1599036")
 		)
@@ -24113,6 +24977,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 317.5 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2286"
 			(at 317.5 132.08 0)
 			(effects
 				(font
@@ -24457,6 +25330,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C11702"
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d26aa41-6c67-47c1-b2ab-e89fad84a4b6")
 		)
@@ -24517,6 +25399,15 @@
 			)
 		)
 		(property "Description" "Resistor"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C477765"
 			(at 34.29 73.66 0)
 			(effects
 				(font
@@ -24612,7 +25503,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "db19629f-c3de-49d8-bb1a-81e27f022590")
 		(property "Reference" "TP5"
 			(at 365.76 50.7999 90)
@@ -24651,6 +25542,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 360.68 50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 360.68 50.8 0)
 			(effects
 				(font
@@ -24943,7 +25843,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e1fc21f8-338f-47eb-bfbd-9819cf1f1b67")
 		(property "Reference" "J6"
 			(at 165.1 76.1999 0)
@@ -24990,6 +25890,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 166.37 76.2 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c4cef3d1-ed65-4e08-b433-bf648ad5d07d")
 		)
@@ -25013,7 +25922,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e26155a3-140b-4c17-8a6b-10aa5dc34719")
 		(property "Reference" "C24"
 			(at 230.632 134.62 0)
@@ -25060,6 +25969,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" ""
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "155a7268-a531-43c4-9a40-295581265d5e")
 		)
@@ -25083,7 +26001,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e2a32b0a-4c3c-4435-becd-4ececcb47a3f")
 		(property "Reference" "C22"
 			(at 92.202 133.35 0)
@@ -25122,6 +26040,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 86.36 134.62 0)
 			(effects
 				(font
@@ -25220,7 +26147,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e680aa65-89ff-49c1-bedc-3b95efeaa586")
 		(property "Reference" "J9"
 			(at 92.71 205.486 0)
@@ -25257,6 +26184,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 95.25 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 95.25 207.01 0)
 			(effects
 				(font
@@ -25311,7 +26247,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:D_0402_1005Metric"
+		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
 			(at 307.34 121.92 90)
 			(effects
 				(font
@@ -25330,6 +26266,15 @@
 			)
 		)
 		(property "Description" "Zener diode, small symbol"
+			(at 307.34 121.92 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C173431"
 			(at 307.34 121.92 0)
 			(effects
 				(font
@@ -25360,7 +26305,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e8504784-906f-4843-aca1-69e051313739")
 		(property "Reference" "TP8"
 			(at 27.686 148.082 90)
@@ -25399,6 +26344,15 @@
 			)
 		)
 		(property "Description" "test point"
+			(at 33.02 148.59 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 33.02 148.59 0)
 			(effects
 				(font
@@ -25492,7 +26446,7 @@
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
-		(dnp no)
+		(dnp yes)
 		(uuid "e8f494c9-6ac7-49b5-8522-12e36836e71e")
 		(property "Reference" "J13"
 			(at 29.464 249.174 0)
@@ -25529,6 +26483,15 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
+			(at 33.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" ""
 			(at 33.02 250.19 0)
 			(effects
 				(font
@@ -25740,6 +26703,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C720477"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "72070547-cb9a-4197-9cf0-c7f6cc2bfef1")
 		)
@@ -25807,6 +26779,15 @@
 			)
 		)
 		(property "Description" "Resistor, small symbol"
+			(at 33.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C25531"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -25948,6 +26929,15 @@
 				(hide yes)
 			)
 		)
+		(property "LCSC Part Number" "C4109"
+			(at 125.73 267.97 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b7a46420-095b-44f5-a83c-74f70fa6c8e8")
 		)
@@ -26075,6 +27065,15 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C1525"
 			(at 25.4 58.42 0)
 			(effects
 				(font
@@ -26410,6 +27409,15 @@
 			)
 		)
 		(property "Description" "Light emitting diode, small symbol"
+			(at 307.34 132.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part Number" "C2286"
 			(at 307.34 132.08 0)
 			(effects
 				(font
