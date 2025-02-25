@@ -11572,7 +11572,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 27.94 176.53 0)
 			(effects
 				(font
@@ -11648,7 +11648,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25531"
+		(property "LCSC Part #" "C25531"
 			(at 80.01 154.94 0)
 			(effects
 				(font
@@ -11861,7 +11861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C92759"
+		(property "LCSC Part #" "C92759"
 			(at 181.61 66.04 0)
 			(effects
 				(font
@@ -11932,15 +11932,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x02, script generated"
-			(at 116.84 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 116.84 146.05 0)
 			(effects
 				(font
@@ -12088,7 +12079,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C15999"
+		(property "LCSC Part #" "C15999"
 			(at 113.03 49.53 0)
 			(effects
 				(font
@@ -12179,7 +12170,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77050"
+		(property "LCSC Part #" "C77050"
 			(at 76.2 134.62 0)
 			(effects
 				(font
@@ -12248,15 +12239,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 157.48 119.38 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 157.48 119.38 0)
 			(effects
 				(font
@@ -12608,15 +12590,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 255.27 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "1e34e11c-1220-4a70-83ed-50b7ddf7412d")
 		)
@@ -12744,15 +12717,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 31.75 215.9 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 31.75 215.9 0)
 			(effects
 				(font
@@ -12897,7 +12861,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 27.94 137.16 0)
 			(effects
 				(font
@@ -12966,15 +12930,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 157.48 138.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 157.48 138.43 0)
 			(effects
 				(font
@@ -13053,7 +13008,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25890"
+		(property "LCSC Part #" "C25890"
 			(at 128.27 214.63 0)
 			(effects
 				(font
@@ -13132,7 +13087,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 101.6 147.32 0)
 			(effects
 				(font
@@ -13278,7 +13233,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25531"
+		(property "LCSC Part #" "C25531"
 			(at 31.75 49.53 0)
 			(effects
 				(font
@@ -13422,7 +13377,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C389355"
+		(property "LCSC Part #" "C389355"
 			(at 276.86 30.48 0)
 			(effects
 				(font
@@ -13566,7 +13521,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C720477"
+		(property "LCSC Part #" "C720477"
 			(at 25.4 77.47 0)
 			(effects
 				(font
@@ -13715,7 +13670,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 215.9 26.67 0)
 			(effects
 				(font
@@ -13791,7 +13746,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C4109"
+		(property "LCSC Part #" "C4109"
 			(at 124.46 209.55 0)
 			(effects
 				(font
@@ -13867,7 +13822,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25531"
+		(property "LCSC Part #" "C25531"
 			(at 218.44 156.21 0)
 			(effects
 				(font
@@ -13946,7 +13901,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C19077406"
+		(property "LCSC Part #" "C19077406"
 			(at 317.5 121.92 0)
 			(effects
 				(font
@@ -14016,15 +13971,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 172.72 170.18 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 172.72 170.18 0)
 			(effects
 				(font
@@ -14299,7 +14245,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2286"
+		(property "LCSC Part #" "C2286"
 			(at 327.66 132.08 0)
 			(effects
 				(font
@@ -14467,7 +14413,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1556870"
+		(property "LCSC Part #" "C1556870"
 			(at 196.85 151.13 0)
 			(effects
 				(font
@@ -14630,7 +14576,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1614"
+		(property "LCSC Part #" "C1614"
 			(at 186.69 125.73 0)
 			(effects
 				(font
@@ -14700,15 +14646,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 168.91 130.81 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 168.91 130.81 0)
 			(effects
 				(font
@@ -14849,7 +14786,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C165948"
+		(property "LCSC Part #" "C165948"
 			(at 139.7 40.64 0)
 			(effects
 				(font
@@ -15170,15 +15107,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 33.02 261.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "b1e98891-6d28-4e75-9a12-23f5e99504b7")
 		)
@@ -15243,15 +15171,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 33.02 110.49 0)
 			(effects
 				(font
@@ -15386,15 +15305,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 111.76 78.74 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 111.76 78.74 0)
 			(effects
 				(font
@@ -15600,15 +15510,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 171.45 149.86 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 171.45 149.86 0)
 			(effects
 				(font
@@ -15946,7 +15847,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 133.35 81.28 0)
 			(effects
 				(font
@@ -16157,7 +16058,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 166.37 138.43 0)
 			(effects
 				(font
@@ -16236,7 +16137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C437568"
+		(property "LCSC Part #" "C437568"
 			(at 143.51 81.28 0)
 			(effects
 				(font
@@ -16513,7 +16414,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C437568"
+		(property "LCSC Part #" "C437568"
 			(at 161.29 29.21 0)
 			(effects
 				(font
@@ -16589,7 +16490,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77101"
+		(property "LCSC Part #" "C77101"
 			(at 266.7 36.83 0)
 			(effects
 				(font
@@ -16732,7 +16633,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77050"
+		(property "LCSC Part #" "C77050"
 			(at 276.86 36.83 0)
 			(effects
 				(font
@@ -16943,15 +16844,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 33.02 238.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "bfcee914-3a3f-464b-bf60-ace83c7c0011")
 		)
@@ -17016,15 +16908,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 327.66 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 327.66 80.01 0)
 			(effects
 				(font
@@ -17099,15 +16982,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 360.68 80.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "978b8c5b-8938-4bfb-8971-d48b5372289b")
 		)
@@ -17166,15 +17040,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 360.68 63.5 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 360.68 63.5 0)
 			(effects
 				(font
@@ -17313,15 +17178,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 157.48 177.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "21a29d18-c051-49c8-a75d-ef0e033b8aad")
 		)
@@ -17392,7 +17248,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 119.38 33.02 0)
 			(effects
 				(font
@@ -17535,7 +17391,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C844504"
+		(property "LCSC Part #" "C844504"
 			(at 236.22 50.8 0)
 			(effects
 				(font
@@ -17604,15 +17460,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x04, script generated"
-			(at 111.76 90.17 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 111.76 90.17 0)
 			(effects
 				(font
@@ -17695,7 +17542,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -17840,7 +17687,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C485517"
+		(property "LCSC Part #" "C485517"
 			(at 247.65 69.85 0)
 			(effects
 				(font
@@ -17926,15 +17773,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 31.75 227.33 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "6b17006d-1309-4bfb-bff9-47899e59cfaf")
 		)
@@ -18005,7 +17843,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25890"
+		(property "LCSC Part #" "C25890"
 			(at 129.54 273.05 0)
 			(effects
 				(font
@@ -18074,15 +17912,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 96.52 265.43 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 96.52 265.43 0)
 			(effects
 				(font
@@ -18297,7 +18126,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25102"
+		(property "LCSC Part #" "C25102"
 			(at 317.5 127 0)
 			(effects
 				(font
@@ -18439,7 +18268,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 27.94 156.21 0)
 			(effects
 				(font
@@ -18516,7 +18345,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 166.37 157.48 0)
 			(effects
 				(font
@@ -18592,7 +18421,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77101"
+		(property "LCSC Part #" "C77101"
 			(at 246.38 36.83 0)
 			(effects
 				(font
@@ -18670,15 +18499,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 170.18 110.49 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "9f4fb723-c6b6-4887-90a1-bd6f110eecea")
 		)
@@ -18746,7 +18566,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -18815,15 +18635,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 19.05 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 19.05 137.16 0)
 			(effects
 				(font
@@ -19026,15 +18837,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 19.05 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 19.05 118.11 0)
 			(effects
 				(font
@@ -19247,7 +19049,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25905"
+		(property "LCSC Part #" "C25905"
 			(at 119.38 30.48 0)
 			(effects
 				(font
@@ -19316,15 +19118,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 19.05 156.21 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 19.05 156.21 0)
 			(effects
 				(font
@@ -19607,7 +19400,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77050"
+		(property "LCSC Part #" "C77050"
 			(at 214.63 135.89 0)
 			(effects
 				(font
@@ -19817,15 +19610,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 360.68 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "bf23ef47-2a15-44c7-be73-102f84e5ceec")
 		)
@@ -19883,15 +19667,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 33.02 273.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 33.02 273.05 0)
 			(effects
 				(font
@@ -20038,7 +19813,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77050"
+		(property "LCSC Part #" "C77050"
 			(at 35.56 129.54 0)
 			(effects
 				(font
@@ -20114,7 +19889,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C481918"
+		(property "LCSC Part #" "C481918"
 			(at 236.22 43.18 0)
 			(effects
 				(font
@@ -20259,7 +20034,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2286"
+		(property "LCSC Part #" "C2286"
 			(at 292.1 130.81 0)
 			(effects
 				(font
@@ -20338,7 +20113,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C115277"
+		(property "LCSC Part #" "C115277"
 			(at 327.66 121.92 0)
 			(effects
 				(font
@@ -20680,7 +20455,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 68.58 241.3 0)
 			(effects
 				(font
@@ -20888,7 +20663,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C841384"
+		(property "LCSC Part #" "C841384"
 			(at 199.39 39.37 0)
 			(effects
 				(font
@@ -20987,7 +20762,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 111.76 30.48 0)
 			(effects
 				(font
@@ -21155,7 +20930,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1556870"
+		(property "LCSC Part #" "C1556870"
 			(at 58.42 149.86 0)
 			(effects
 				(font
@@ -21318,7 +21093,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1770"
+		(property "LCSC Part #" "C1770"
 			(at 172.72 29.21 0)
 			(effects
 				(font
@@ -21394,7 +21169,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 25.4 81.28 0)
 			(effects
 				(font
@@ -21463,15 +21238,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x06, script generated"
-			(at 31.75 201.93 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 31.75 201.93 0)
 			(effects
 				(font
@@ -21560,7 +21326,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C720477"
+		(property "LCSC Part #" "C720477"
 			(at 25.4 54.61 0)
 			(effects
 				(font
@@ -21645,7 +21411,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1614"
+		(property "LCSC Part #" "C1614"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -21923,7 +21689,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C14445"
+		(property "LCSC Part #" "C14445"
 			(at 33.02 34.29 0)
 			(effects
 				(font
@@ -21993,15 +21759,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 168.91 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 33.02 168.91 0)
 			(effects
 				(font
@@ -22673,7 +22430,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C90706"
+		(property "LCSC Part #" "C90706"
 			(at 127 247.65 0)
 			(effects
 				(font
@@ -22805,7 +22562,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 144.78 240.03 0)
 			(effects
 				(font
@@ -22884,7 +22641,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25131"
+		(property "LCSC Part #" "C25131"
 			(at 292.1 124.46 0)
 			(effects
 				(font
@@ -22963,7 +22720,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77050"
+		(property "LCSC Part #" "C77050"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -23172,7 +22929,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25112"
+		(property "LCSC Part #" "C25112"
 			(at 307.34 127 0)
 			(effects
 				(font
@@ -23314,7 +23071,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 166.37 177.8 0)
 			(effects
 				(font
@@ -23390,7 +23147,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C77101"
+		(property "LCSC Part #" "C77101"
 			(at 256.54 36.83 0)
 			(effects
 				(font
@@ -23467,7 +23224,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 25.4 35.56 0)
 			(effects
 				(font
@@ -23546,7 +23303,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25087"
+		(property "LCSC Part #" "C25087"
 			(at 327.66 127 0)
 			(effects
 				(font
@@ -23615,15 +23372,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 157.48 157.48 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 157.48 157.48 0)
 			(effects
 				(font
@@ -23772,7 +23520,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C389355"
+		(property "LCSC Part #" "C389355"
 			(at 102.87 22.86 0)
 			(effects
 				(font
@@ -23848,7 +23596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C437568"
+		(property "LCSC Part #" "C437568"
 			(at 231.14 69.85 0)
 			(effects
 				(font
@@ -23918,15 +23666,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 31.75 129.54 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 31.75 129.54 0)
 			(effects
 				(font
@@ -24130,7 +23869,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C5329540"
+		(property "LCSC Part #" "C5329540"
 			(at 228.6 34.29 0)
 			(effects
 				(font
@@ -24199,15 +23938,6 @@
 			)
 		)
 		(property "Description" "Solder Jumper, 3-pole, open"
-			(at 19.05 176.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 19.05 176.53 0)
 			(effects
 				(font
@@ -24356,7 +24086,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C70225"
+		(property "LCSC Part #" "C70225"
 			(at 86.36 25.4 0)
 			(effects
 				(font
@@ -24567,7 +24297,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C437568"
+		(property "LCSC Part #" "C437568"
 			(at 265.43 67.31 0)
 			(effects
 				(font
@@ -24645,7 +24375,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C701341"
+		(property "LCSC Part #" "C701341"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -24906,7 +24636,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 240.03 148.59 0)
 			(effects
 				(font
@@ -24985,7 +24715,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2286"
+		(property "LCSC Part #" "C2286"
 			(at 317.5 132.08 0)
 			(effects
 				(font
@@ -25330,7 +25060,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C11702"
+		(property "LCSC Part #" "C11702"
 			(at 166.37 119.38 0)
 			(effects
 				(font
@@ -25407,7 +25137,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C477765"
+		(property "LCSC Part #" "C477765"
 			(at 34.29 73.66 0)
 			(effects
 				(font
@@ -25542,15 +25272,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 360.68 50.8 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 360.68 50.8 0)
 			(effects
 				(font
@@ -25890,15 +25611,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 166.37 76.2 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "c4cef3d1-ed65-4e08-b433-bf648ad5d07d")
 		)
@@ -25969,15 +25681,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 224.79 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "1"
 			(uuid "155a7268-a531-43c4-9a40-295581265d5e")
 		)
@@ -26040,15 +25743,6 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 86.36 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 86.36 134.62 0)
 			(effects
 				(font
@@ -26192,15 +25886,6 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" ""
-			(at 95.25 207.01 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
 		(pin "2"
 			(uuid "13fecf00-b171-48ef-b94e-6565aa404121")
 		)
@@ -26274,7 +25959,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C173431"
+		(property "LCSC Part #" "C173431"
 			(at 307.34 121.92 0)
 			(effects
 				(font
@@ -26344,15 +26029,6 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 33.02 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 33.02 148.59 0)
 			(effects
 				(font
@@ -26483,15 +26159,6 @@
 			)
 		)
 		(property "Description" "Generic connector, single row, 01x03, script generated"
-			(at 33.02 250.19 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part Number" ""
 			(at 33.02 250.19 0)
 			(effects
 				(font
@@ -26703,7 +26370,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C720477"
+		(property "LCSC Part #" "C720477"
 			(at 25.4 31.75 0)
 			(effects
 				(font
@@ -26787,7 +26454,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C25531"
+		(property "LCSC Part #" "C25531"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -26929,7 +26596,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C4109"
+		(property "LCSC Part #" "C4109"
 			(at 125.73 267.97 0)
 			(effects
 				(font
@@ -27073,7 +26740,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 25.4 58.42 0)
 			(effects
 				(font
@@ -27417,7 +27084,7 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part Number" "C2286"
+		(property "LCSC Part #" "C2286"
 			(at 307.34 132.08 0)
 			(effects
 				(font
