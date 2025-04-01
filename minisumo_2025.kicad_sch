@@ -9876,7 +9876,7 @@
 	)
 	(wire
 		(pts
-			(xy 355.6 72.39) (xy 360.68 72.39)
+			(xy 355.6 72.39) (xy 374.65 72.39)
 		)
 		(stroke
 			(width 0)
@@ -10444,6 +10444,16 @@
 			(justify left bottom)
 		)
 		(uuid "524324d0-94e8-4400-a643-cde7aabdc08c")
+	)
+	(label "GPIO21"
+		(at 374.65 72.39 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "569b91d0-26af-4d1c-9678-ad49e0f5131a")
 	)
 	(label "DISTANCE_R90"
 		(at 360.68 57.15 0)
