@@ -8,4 +8,6 @@
   (lib (name "2025-02-16_00-59-53")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/2025-02-16_00-59-53.kicad_sym")(options "")(descr ""))
   (lib (name "TS-1088-AR02016")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/TS-1088-AR02016.kicad_sym")(options "")(descr ""))
   (lib (name "2025-02-17_14-31-05")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/2025-02-17_14-31-05.kicad_sym")(options "")(descr ""))
+  (lib (name "TXS0108ERGYR")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/TXS0108ERGYR.kicad_sym")(options "")(descr ""))
+  (lib (name "TXS0108EPWR")(type "KiCad")(uri "${KIPRJMOD}/custom_parts/TXS0108EPWR.kicad_sym")(options "")(descr ""))
 )
