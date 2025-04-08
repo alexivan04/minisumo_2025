@@ -7380,12 +7380,6 @@
 		(uuid "17074e0c-1cc0-464b-88ca-6b783e8292e3")
 	)
 	(junction
-		(at 240.03 146.05)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "18f14073-2f9b-457f-961c-870c0fbe493d")
-	)
-	(junction
 		(at 76.2 132.08)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -7420,12 +7414,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "2c7e782d-73e2-4aa8-b74e-228b4c972e1b")
-	)
-	(junction
-		(at 240.03 151.13)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "31960cc0-5632-4684-8073-955834e49dce")
 	)
 	(junction
 		(at 76.2 162.56)
@@ -7474,12 +7462,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "4ae1c9bf-24ae-4da8-86e5-cc60d19e30e9")
-	)
-	(junction
-		(at 101.6 144.78)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "5c041aa6-0381-42e0-a6aa-d47168bb4674")
 	)
 	(junction
 		(at 124.46 40.64)
@@ -7654,12 +7636,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "d04376a6-9f66-42e1-b88c-8b7f2e4a4e89")
-	)
-	(junction
-		(at 101.6 149.86)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "d5b91d33-e5b8-4d22-98fe-35bc47d46292")
 	)
 	(junction
 		(at 129.54 209.55)
@@ -8545,7 +8521,7 @@
 	)
 	(wire
 		(pts
-			(xy 212.09 151.13) (xy 240.03 151.13)
+			(xy 212.09 151.13) (xy 250.19 151.13)
 		)
 		(stroke
 			(width 0)
@@ -8595,16 +8571,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 151.13) (xy 250.19 151.13)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "5ef57bfa-9bfa-4c3e-8114-9d6bd65feba4")
-	)
-	(wire
-		(pts
 			(xy 38.1 275.59) (xy 60.96 275.59)
 		)
 		(stroke
@@ -8622,16 +8588,6 @@
 			(type default)
 		)
 		(uuid "60c6b8d7-b7ee-43c6-9b06-9e6ebf8c6285")
-	)
-	(wire
-		(pts
-			(xy 83.82 144.78) (xy 101.6 144.78)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "60ce26a2-f426-4570-82ad-63f81db5fe1c")
 	)
 	(wire
 		(pts
@@ -8835,7 +8791,7 @@
 	)
 	(wire
 		(pts
-			(xy 73.66 149.86) (xy 101.6 149.86)
+			(xy 73.66 149.86) (xy 111.76 149.86)
 		)
 		(stroke
 			(width 0)
@@ -8902,16 +8858,6 @@
 			(type default)
 		)
 		(uuid "7df6d1b1-ed0a-45f6-9b11-050183390953")
-	)
-	(wire
-		(pts
-			(xy 101.6 149.86) (xy 111.76 149.86)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "843b9320-39cc-49b9-8f58-363a0af495df")
 	)
 	(wire
 		(pts
@@ -9295,7 +9241,7 @@
 	)
 	(wire
 		(pts
-			(xy 222.25 146.05) (xy 240.03 146.05)
+			(xy 222.25 146.05) (xy 250.19 146.05)
 		)
 		(stroke
 			(width 0)
@@ -9825,16 +9771,6 @@
 	)
 	(wire
 		(pts
-			(xy 240.03 146.05) (xy 250.19 146.05)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "de8e8951-b187-472e-a361-d3578068709c")
-	)
-	(wire
-		(pts
 			(xy 226.06 34.29) (xy 220.98 34.29)
 		)
 		(stroke
@@ -10065,7 +10001,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 144.78) (xy 111.76 144.78)
+			(xy 83.82 144.78) (xy 111.76 144.78)
 		)
 		(stroke
 			(width 0)
@@ -13205,35 +13141,16 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 101.6 147.32 0)
-		(mirror y)
+		(lib_id "power:+3V3")
+		(at 19.05 132.08 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
-		(uuid "17234d43-4d94-4bcb-bb0c-b25640de457c")
-		(property "Reference" "C25"
-			(at 107.442 146.05 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 108.712 148.082 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 101.6 147.32 0)
+		(uuid "16c977f4-9ca6-42f0-8c30-7cfdb7376886")
+		(property "Reference" "#PWR034"
+			(at 19.05 135.89 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13241,8 +13158,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 101.6 147.32 0)
+		(property "Value" "+3V3"
+			(at 19.05 128.27 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13250,8 +13175,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 101.6 147.32 0)
+		(property "Datasheet" ""
+			(at 19.05 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13259,8 +13184,8 @@
 				(hide yes)
 			)
 		)
-		(property "LCSC Part #" "C1525"
-			(at 101.6 147.32 0)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 19.05 132.08 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -13269,15 +13194,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "a40da3f8-0f7b-49af-9f87-9177d32828a8")
-		)
-		(pin "2"
-			(uuid "c786efc2-0a2e-4057-9d6a-0604352e77e8")
+			(uuid "1f422d44-e10b-4df1-b6e3-e2baed601dd0")
 		)
 		(instances
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "C25")
+					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -13828,7 +13750,7 @@
 				)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 215.9 26.67 0)
 			(effects
 				(font
@@ -16007,71 +15929,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+5V")
-		(at 157.48 114.3 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "45e058a3-5cbe-415d-8add-085e5cf4a6df")
-		(property "Reference" "#PWR035"
-			(at 157.48 118.11 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 157.48 110.744 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "f340238a-4dac-40bf-95ba-a74fb4c93f32")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR035")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:GND")
 		(at 33.02 36.83 0)
 		(unit 1)
@@ -17743,6 +17600,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 133.35 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "5a7c1a77-c29e-415b-865d-c801f0e3a2d0")
+		(property "Reference" "#PWR029"
+			(at 157.48 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "ba132330-45ec-4e63-bbbc-aa3bd49c2dc3")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:R_Small")
 		(at 119.38 33.02 90)
 		(unit 1)
@@ -19063,7 +18985,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 76.2 25.4 0)
 			(effects
 				(font
@@ -19246,71 +19168,6 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "JP3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 157.48 133.35 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "6e44f222-7755-4920-be5b-679c3259184d")
-		(property "Reference" "#PWR047"
-			(at 157.48 137.16 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 157.48 129.794 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 157.48 133.35 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "b6035c4f-791e-4945-97d3-82514ef1a40a")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR047")
 					(unit 1)
 				)
 			)
@@ -20542,71 +20399,6 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "D6")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 19.05 113.03 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "86088670-0530-40d7-bfa5-1835b43b9a92")
-		(property "Reference" "#PWR034"
-			(at 19.05 116.84 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 19.05 109.474 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 113.03 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "85ff88be-a114-434e-a9e1-56707a3349f7")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR034")
 					(unit 1)
 				)
 			)
@@ -22684,6 +22476,71 @@
 		)
 	)
 	(symbol
+		(lib_id "power:+3V3")
+		(at 19.05 113.03 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "a6c0323e-ba9c-4e85-8e00-0ed5d8cd1f71")
+		(property "Reference" "#PWR030"
+			(at 19.05 116.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 19.05 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 19.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 19.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 19.05 113.03 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "cff0c0e7-36af-426e-8334-910fa472c052")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR030")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_name "LED_Small_1")
 		(lib_id "Device:LED_Small")
 		(at 199.39 217.17 0)
@@ -23256,71 +23113,6 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "R14")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+5V")
-		(at 19.05 132.08 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "b5c0841b-bba0-437a-ac37-ea01fdbc2545")
-		(property "Reference" "#PWR045"
-			(at 19.05 135.89 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+5V"
-			(at 19.05 128.524 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 19.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 19.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+5V\""
-			(at 19.05 132.08 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "3970c81f-9950-4fd7-984a-e36d9dc9f0e3")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "#PWR045")
 					(unit 1)
 				)
 			)
@@ -25186,85 +24978,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C_Small")
-		(at 240.03 148.59 0)
-		(mirror y)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(uuid "d3decdbb-2373-4249-81ff-d6d1c4a3d618")
-		(property "Reference" "C26"
-			(at 245.872 147.32 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "0.1uF"
-			(at 247.142 149.352 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor, small symbol"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C1525"
-			(at 240.03 148.59 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "0de362a0-f0c9-4d7e-93f3-468cf1599036")
-		)
-		(pin "2"
-			(uuid "732a1a00-2749-4c5e-a7f1-b5d68a9f1fae")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "C26")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:LED_Small")
 		(at 292.1 232.41 90)
 		(unit 1)
@@ -26598,6 +26311,71 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "J9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:+3V3")
+		(at 157.48 114.3 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "e72b2955-29ef-41b9-b2f8-962f71788e9f")
+		(property "Reference" "#PWR026"
+			(at 157.48 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "+3V3"
+			(at 157.48 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"+3V3\""
+			(at 157.48 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "2c5ba0da-1675-4314-8372-e035e218fd09")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
