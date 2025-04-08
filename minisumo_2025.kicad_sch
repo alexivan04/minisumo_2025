@@ -10173,6 +10173,16 @@
 		)
 		(uuid "11c24850-1739-4e36-a64f-09c6c4f1d158")
 	)
+	(label "D_P"
+		(at 118.11 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "1210ccbf-a0ea-4766-a0ea-85e2874e2789")
+	)
 	(label "LINE_LEFT"
 		(at 139.7 271.78 180)
 		(effects
@@ -10353,16 +10363,6 @@
 		)
 		(uuid "36d695a5-b841-4b14-ac65-a9be6c8eecac")
 	)
-	(label "D_P"
-		(at 118.11 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3715815d-c315-471c-9bad-1c0b341789d8")
-	)
 	(label "MOTOR1_A"
 		(at 83.82 147.32 180)
 		(effects
@@ -10413,6 +10413,16 @@
 			(justify right bottom)
 		)
 		(uuid "413a4a13-d367-4380-9b8e-56d9037fc246")
+	)
+	(label "D-"
+		(at 104.14 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "42957e2d-337e-4d73-9e63-524c61abbeff")
 	)
 	(label "LINE_RIGHT"
 		(at 360.68 62.23 0)
@@ -10513,6 +10523,16 @@
 			(justify right bottom)
 		)
 		(uuid "6306b4b7-bf1d-40df-8d03-9674c7e52cea")
+	)
+	(label "D_N"
+		(at 118.11 49.53 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "638cb69a-6aec-470f-bfda-5e8ebb464183")
 	)
 	(label "GPIO37"
 		(at 86.36 57.15 0)
@@ -10794,16 +10814,6 @@
 		)
 		(uuid "88bc1837-b938-46be-9f3f-a8e1ea62fd37")
 	)
-	(label "D+"
-		(at 104.14 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8b68bbd9-6dc2-4c16-80db-206f225aa566")
-	)
 	(label "INDICATOR_LED"
 		(at 360.68 52.07 0)
 		(effects
@@ -11064,6 +11074,16 @@
 		)
 		(uuid "ba79d957-22d1-4a26-9824-a506f6ff7f94")
 	)
+	(label "D+"
+		(at 104.14 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "bba247c3-198b-41af-854a-9b08aecf8ab9")
+	)
 	(label "LINE_LEFT_OUT"
 		(at 119.38 271.78 180)
 		(effects
@@ -11123,16 +11143,6 @@
 			(justify right bottom)
 		)
 		(uuid "c1cdadac-ce28-4e25-9071-746d0302148d")
-	)
-	(label "D_N"
-		(at 118.11 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c28e3779-4634-4dee-bf94-f05b2786226e")
 	)
 	(label "GPIO47"
 		(at 355.6 77.47 180)
@@ -11404,16 +11414,6 @@
 			(justify left bottom)
 		)
 		(uuid "f9576545-c76a-4a00-ae11-1b59b4dbf94a")
-	)
-	(label "D-"
-		(at 104.14 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "fc587910-0380-440b-bd63-c1bf570052ed")
 	)
 	(label "DISTANCE_LF_OUT"
 		(at 233.68 232.41 180)
@@ -20986,7 +20986,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Capacitor_SMD:C_1210_3225Metric"
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
 			(at 175.26 77.47 0)
 			(effects
 				(font
