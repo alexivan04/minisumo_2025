@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 4,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -55,7 +55,6 @@
       "/GPIO21",
       "unconnected-(U3-IO3-Pad15)",
       "/GPIO11",
-      "/GPIO14",
       "unconnected-(U3-IO45-Pad26)",
       "/GPIO17",
       "unconnected-(U3-IO46-Pad16)",
@@ -158,7 +157,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02000001",
+    "visible_layers": "00000000_00000000_00000200_02000065",
     "zone_display_mode": 0
   },
   "git": {
@@ -212,7 +211,7 @@
       103,
       103,
       103,
-      10
+      0
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
