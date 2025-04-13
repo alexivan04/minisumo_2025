@@ -7686,6 +7686,12 @@
 		(uuid "d04376a6-9f66-42e1-b88c-8b7f2e4a4e89")
 	)
 	(junction
+		(at 104.14 25.4)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "dc25e5a7-3209-48f3-b455-5c066d0967bc")
+	)
+	(junction
 		(at 129.54 209.55)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8107,7 +8113,7 @@
 	)
 	(wire
 		(pts
-			(xy 102.87 25.4) (xy 111.76 25.4)
+			(xy 102.87 25.4) (xy 104.14 25.4)
 		)
 		(stroke
 			(width 0)
@@ -9327,6 +9333,16 @@
 	)
 	(wire
 		(pts
+			(xy 104.14 25.4) (xy 111.76 25.4)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a1135afb-054b-43e7-a560-ea4206233fa6")
+	)
+	(wire
+		(pts
 			(xy 322.58 77.47) (xy 327.66 77.47)
 		)
 		(stroke
@@ -10265,16 +10281,6 @@
 		)
 		(uuid "0d1cae61-be99-41da-837d-8d5b98f2e534")
 	)
-	(label "DISTANCE_R90"
-		(at 130.81 238.76 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0f12f6ff-462a-49be-8311-5d59de72aff0")
-	)
 	(label "SLEW_1"
 		(at 33.02 110.49 270)
 		(effects
@@ -10315,6 +10321,16 @@
 		)
 		(uuid "19f77536-c57f-4a42-a05c-a9bba6d123ad")
 	)
+	(label "DISTANCE_RF"
+		(at 87.63 243.84 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "1aa4d673-412a-4d06-bbc3-0e1f7de27a78")
+	)
 	(label "DISTANCE_L90_OUT"
 		(at 191.77 257.81 180)
 		(effects
@@ -10325,15 +10341,15 @@
 		)
 		(uuid "1ae72f7c-2093-461a-9e31-00408f5f1718")
 	)
-	(label "DISTANCE_L90"
-		(at 87.63 243.84 180)
+	(label "DISTANCE_R"
+		(at 87.63 238.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
 			(justify right bottom)
 		)
-		(uuid "1ec3d7a8-8102-4af0-b1fa-949559712cca")
+		(uuid "1f24476c-48b7-4b28-8703-dc2fa098f66b")
 	)
 	(label "D_N"
 		(at 118.11 52.07 0)
@@ -10354,16 +10370,6 @@
 			(justify left bottom)
 		)
 		(uuid "24cf9a2b-d11b-4f05-9d26-f5a0690ad712")
-	)
-	(label "DISTANCE_L90_OUT"
-		(at 87.63 231.14 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "287d97ec-6cdd-419c-8ea1-074338b0f1ea")
 	)
 	(label "GPIO7"
 		(at 322.58 64.77 180)
@@ -10405,6 +10411,16 @@
 		)
 		(uuid "2f527b4b-7d7d-4ac8-86d7-a151b189fb35")
 	)
+	(label "DISTANCE_L90"
+		(at 130.81 238.76 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "32a508ff-b849-4b90-8dfe-f1f3e5ca9dc0")
+	)
 	(label "IN2_1"
 		(at 34.29 149.86 0)
 		(effects
@@ -10434,16 +10450,6 @@
 			(justify right bottom)
 		)
 		(uuid "341061d9-c7c5-4533-b0e2-17a1b68a9a02")
-	)
-	(label "DISTANCE_LF_OUT"
-		(at 87.63 226.06 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "3423f8ff-40ea-4aea-8080-3c1bdf5dd687")
 	)
 	(label "GPIO21"
 		(at 86.36 49.53 0)
@@ -10485,6 +10491,16 @@
 		)
 		(uuid "36d695a5-b841-4b14-ac65-a9be6c8eecac")
 	)
+	(label "DISTANCE_LF"
+		(at 130.81 241.3 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3a1d7085-04a0-4ba0-bc72-d6d237e6b791")
+	)
 	(label "MOTOR1_A"
 		(at 83.82 147.32 180)
 		(effects
@@ -10494,6 +10510,16 @@
 			(justify right bottom)
 		)
 		(uuid "3a4ab199-fbbb-42e1-b492-bf34944f76fc")
+	)
+	(label "DISTANCE_INTR"
+		(at 360.68 52.07 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "3b0a442c-2469-4d31-a7cb-984997d9500e")
 	)
 	(label "GPIO13"
 		(at 55.88 72.39 180)
@@ -10546,16 +10572,6 @@
 		)
 		(uuid "44010264-4db5-4dc0-a068-d1255d904b2d")
 	)
-	(label "DISTANCE_RF_OUT"
-		(at 130.81 231.14 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "46638d75-5d22-437c-ab4d-46f2a20de958")
-	)
 	(label "DISTANCE_L_OUT"
 		(at 233.68 219.71 180)
 		(effects
@@ -10576,16 +10592,6 @@
 		)
 		(uuid "4bc51110-df53-476b-9ec4-62800c4a7423")
 	)
-	(label "DISTANCE_L90"
-		(at 360.68 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "50c300c9-14f4-4b51-b209-7794c1882fed")
-	)
 	(label "DISTANCE_L90_OUT"
 		(at 60.96 252.73 180)
 		(effects
@@ -10605,6 +10611,16 @@
 			(justify left bottom)
 		)
 		(uuid "524324d0-94e8-4400-a643-cde7aabdc08c")
+	)
+	(label "DISTANCE_R90"
+		(at 87.63 241.3 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "526f3a15-3711-4d91-bd88-7b8639f417d4")
 	)
 	(label "DISTANCE_R_OUT"
 		(at 191.77 229.87 180)
@@ -10676,16 +10692,6 @@
 		)
 		(uuid "65fc53d5-5a0f-400e-839f-9627dff33f43")
 	)
-	(label "DISTANCE_R"
-		(at 327.66 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "679681fb-16b0-4b64-9921-e04438c65a5c")
-	)
 	(label "DISTANCE_RF_OUT"
 		(at 191.77 243.84 180)
 		(effects
@@ -10736,26 +10742,6 @@
 		)
 		(uuid "6e5c4003-a2ac-4b2e-b7c7-8cccc0465155")
 	)
-	(label "DISTANCE_L_OUT"
-		(at 87.63 228.6 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "70dc8189-b336-4658-b209-d9bcd065de2c")
-	)
-	(label "DISTANCE_LF"
-		(at 327.66 64.77 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "731ce2a6-408d-41b1-9b56-94d338e87d18")
-	)
 	(label "IN1_1"
 		(at 327.66 69.85 0)
 		(effects
@@ -10765,6 +10751,16 @@
 			(justify left bottom)
 		)
 		(uuid "7420563b-1081-4bad-96ab-42801576150b")
+	)
+	(label "DISTANCE_L"
+		(at 130.81 243.84 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "754a9774-1eb4-49be-8f41-4fd15a76a55b")
 	)
 	(label "MOTOR1_B"
 		(at 83.82 149.86 180)
@@ -10836,6 +10832,26 @@
 		)
 		(uuid "79c0616b-4eb1-4555-8780-36b72d46a34f")
 	)
+	(label "DISTANCE_RF_OUT"
+		(at 87.63 231.14 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "7a7c63ca-8513-415a-9c6d-b2b2556fc267")
+	)
+	(label "DISTANCE_L_OUT"
+		(at 130.81 231.14 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7aec8ed8-38fc-478f-8c91-b2b204cfaec2")
+	)
 	(label "GPIO48"
 		(at 355.6 80.01 180)
 		(effects
@@ -10866,6 +10882,16 @@
 		)
 		(uuid "7c8d46c4-c060-4fcf-a214-bae7168c31bd")
 	)
+	(label "DISTANCE_RF"
+		(at 360.68 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7dce6396-df36-45a0-bc19-bc653a22681a")
+	)
 	(label "D_N"
 		(at 120.65 40.64 0)
 		(effects
@@ -10875,6 +10901,16 @@
 			(justify left bottom)
 		)
 		(uuid "7f84011a-d683-456a-a4c4-d82927ee76f9")
+	)
+	(label "DISTANCE_LF"
+		(at 327.66 59.69 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "7fad9ac0-0f6b-40f7-94f4-c84ee5dec14e")
 	)
 	(label "SCL"
 		(at 50.8 204.47 180)
@@ -10926,26 +10962,6 @@
 		)
 		(uuid "8389e143-621b-4ac9-a7e6-beb722273d31")
 	)
-	(label "DISTANCE_LF"
-		(at 87.63 238.76 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "85f192d1-20a6-4731-92b7-8cd14c6b6eac")
-	)
-	(label "DISTANCE_L"
-		(at 87.63 241.3 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "86a6b9d9-358c-4cac-910b-49785d5cd641")
-	)
 	(label "INV_1"
 		(at 31.75 129.54 270)
 		(effects
@@ -10966,7 +10982,7 @@
 		)
 		(uuid "88bc1837-b938-46be-9f3f-a8e1ea62fd37")
 	)
-	(label "DISTANCE_L"
+	(label "DISTANCE_R90"
 		(at 360.68 54.61 0)
 		(effects
 			(font
@@ -10974,7 +10990,7 @@
 			)
 			(justify left bottom)
 		)
-		(uuid "8af7a140-b722-46e1-a5f6-fffbbc9c1dab")
+		(uuid "8a4d77f3-f444-485b-b2f0-2c638567a5c6")
 	)
 	(label "ESP_EN"
 		(at 41.91 31.75 180)
@@ -10986,6 +11002,16 @@
 		)
 		(uuid "8f3cf7a7-737b-4c6d-8bfc-0a22309290c4")
 	)
+	(label "DISTANCE_LF_OUT"
+		(at 130.81 228.6 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "90298e4f-c1bc-4feb-a51b-0887f03b622b")
+	)
 	(label "GPIO35"
 		(at 355.6 67.31 180)
 		(effects
@@ -10995,6 +11021,16 @@
 			(justify right bottom)
 		)
 		(uuid "90e1217f-e481-49f7-ad91-87abbcab4188")
+	)
+	(label "DISTANCE_R"
+		(at 327.66 64.77 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "9538c324-01f8-4a7d-9691-d2e33b7ba054")
 	)
 	(label "D+"
 		(at 91.44 46.99 180)
@@ -11166,6 +11202,16 @@
 		)
 		(uuid "af21fd59-8028-4ae6-86eb-cc3716baccee")
 	)
+	(label "DISTANCE_R90_OUT"
+		(at 87.63 228.6 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "af98b470-b802-4281-b345-5706805d9e30")
+	)
 	(label "ESP_BOOT"
 		(at 41.91 54.61 180)
 		(effects
@@ -11216,16 +11262,6 @@
 		)
 		(uuid "b9d721e1-956c-4bd7-800f-3a59c065f758")
 	)
-	(label "DISTANCE_R_OUT"
-		(at 130.81 228.6 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "ba79d957-22d1-4a26-9824-a506f6ff7f94")
-	)
 	(label "LINE_LEFT_OUT"
 		(at 119.38 271.78 180)
 		(effects
@@ -11235,16 +11271,6 @@
 			(justify right bottom)
 		)
 		(uuid "bc3113ba-9818-47a8-9bc8-a31fdc4de594")
-	)
-	(label "DISTANCE_R"
-		(at 130.81 241.3 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc69bf22-9ce9-4188-abe3-2b7b027ea525")
 	)
 	(label "IN2_1"
 		(at 327.66 72.39 0)
@@ -11256,16 +11282,6 @@
 		)
 		(uuid "bc8d5e4b-8a61-4a1d-b4ef-e344c7f42076")
 	)
-	(label "DISTANCE_R90"
-		(at 327.66 57.15 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "be326d0c-6f16-4c39-8f03-312c77ee28c0")
-	)
 	(label "GPIO8"
 		(at 322.58 67.31 180)
 		(effects
@@ -11276,6 +11292,16 @@
 		)
 		(uuid "bfb5b563-5702-40eb-b807-7468fec9faca")
 	)
+	(label "DISTANCE_L90"
+		(at 327.66 57.15 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "c02dc873-daec-4c6b-9848-a9795ab8b923")
+	)
 	(label "GPIO12"
 		(at 322.58 77.47 180)
 		(effects
@@ -11285,16 +11311,6 @@
 			(justify right bottom)
 		)
 		(uuid "c1147fb0-01a5-46d2-b0ef-2e1bd747d518")
-	)
-	(label "DISTANCE_R90_OUT"
-		(at 130.81 226.06 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c1c04bb4-ae33-45aa-ab22-6707614afbe0")
 	)
 	(label "GPIO2"
 		(at 55.88 44.45 180)
@@ -11336,6 +11352,26 @@
 			(justify right bottom)
 		)
 		(uuid "c9bd39f5-e9ee-4b84-9616-1ebd968606f1")
+	)
+	(label "DISTANCE_R_OUT"
+		(at 87.63 226.06 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "cac40835-e4e9-41d9-ba2e-519ed1b1df08")
+	)
+	(label "DISTANCE_L90_OUT"
+		(at 130.81 226.06 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "ccc22a3b-8b51-4a9f-8eaa-70cc2dda2438")
 	)
 	(label "ESP_BOOT"
 		(at 45.72 39.37 0)
@@ -11407,16 +11443,6 @@
 		)
 		(uuid "d7c0e664-f7fc-4067-ac99-0f24e969ce85")
 	)
-	(label "DISTANCE_RF"
-		(at 327.66 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "de77a06e-8ed4-4e6f-8b0e-445b599dee1d")
-	)
 	(label "CASE"
 		(at 43.18 77.47 180)
 		(effects
@@ -11437,16 +11463,6 @@
 		)
 		(uuid "e28b5332-7284-4522-be43-624bea9bb8ad")
 	)
-	(label "DISTANCE_RF"
-		(at 130.81 243.84 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e4a23cce-93ec-4a9d-bc9e-36dc49fbd160")
-	)
 	(label "D-"
 		(at 91.44 44.45 180)
 		(effects
@@ -11456,16 +11472,6 @@
 			(justify right bottom)
 		)
 		(uuid "e4d78af5-d56f-48da-acea-866527f555f3")
-	)
-	(label "DISTANCE_INTR"
-		(at 360.68 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "e8a2cd65-bf45-49c8-9ba7-49ab40285c48")
 	)
 	(label "INV_2"
 		(at 168.91 130.81 270)
@@ -11536,6 +11542,16 @@
 			(justify left bottom)
 		)
 		(uuid "f9576545-c76a-4a00-ae11-1b59b4dbf94a")
+	)
+	(label "DISTANCE_L"
+		(at 327.66 62.23 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left bottom)
+		)
+		(uuid "fc0b7c97-052e-4d2b-a206-769cf4eb2a0c")
 	)
 	(label "DISTANCE_LF_OUT"
 		(at 233.68 232.41 180)
@@ -15509,6 +15525,84 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "#PWR083")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 104.14 27.94 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "354ecdea-247f-46c8-a5ac-a7fd11f8cba4")
+		(property "Reference" "C16"
+			(at 99.568 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 96.774 28.448 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C1525"
+			(at 104.14 27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "eca4187f-6f29-40a1-8de3-93bfd03b000f")
+		)
+		(pin "2"
+			(uuid "e3e0a37b-4a45-4143-9b3c-d8eadf3908c4")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -22252,6 +22346,73 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "C18")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 104.14 30.48 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "94d2b5bf-1fdf-4987-bf80-94fed2b5fe76")
+		(property "Reference" "#PWR035"
+			(at 104.14 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 104.14 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Footprint" ""
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 104.14 30.48 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "0d3eb57e-a3ab-46a2-9ad5-fcd11349455d")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "#PWR035")
 					(unit 1)
 				)
 			)

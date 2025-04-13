@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 4,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -112,7 +112,8 @@
       "Net-(JP2-C)",
       "Net-(JP3-C)",
       "Net-(JP4-C)",
-      "Net-(U7-FB)"
+      "Net-(U7-FB)",
+      "/GPIO9"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -145,19 +146,16 @@
       "grid",
       "footprints_front",
       "footprints_back",
-      "footprint_values",
-      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
-      "bitmaps",
       "pads",
       "zones",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000200_02000065",
+    "visible_layers": "00000000_00000000_55555755_57555505",
     "zone_display_mode": 0
   },
   "git": {
@@ -211,7 +209,7 @@
       103,
       103,
       103,
-      0
+      10
     ],
     "custom_group_rules": [],
     "expanded_rows": [],
