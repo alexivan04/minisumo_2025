@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 6,
+    "active_layer": 23,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -81,8 +81,6 @@
       "Net-(J1-CC2)",
       "unconnected-(J1-SBU2-PadB8)",
       "unconnected-(J1-SBU1-PadA8)",
-      "Net-(D3-A)",
-      "Net-(D1-A)",
       "Net-(U1-BOOT)",
       "unconnected-(U1-PG-Pad4)",
       "/GPIO48",
@@ -113,7 +111,8 @@
       "Net-(JP3-C)",
       "Net-(JP4-C)",
       "Net-(U7-FB)",
-      "/GPIO9"
+      "/GPIO9",
+      "Net-(C16-Pad1)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -155,7 +154,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002227",
+    "visible_layers": "00000000_00000000_00000008_82002277",
     "zone_display_mode": 0
   },
   "git": {
