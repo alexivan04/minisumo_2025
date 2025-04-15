@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 23,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -112,7 +112,9 @@
       "Net-(JP4-C)",
       "Net-(U7-FB)",
       "/GPIO9",
-      "Net-(C16-Pad1)"
+      "Net-(C16-Pad1)",
+      "Net-(Q1-D)",
+      "/VBUS"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -154,7 +156,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000008_82002277",
+    "visible_layers": "00000000_00000000_00000008_82002227",
     "zone_display_mode": 0
   },
   "git": {

@@ -5952,7 +5952,7 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Switch:SW_Push_Dual_x2"
+		(symbol "SW_Push_Dual_x2_1"
 			(pin_names
 				(offset 1.016)
 				(hide yes)
@@ -5960,24 +5960,23 @@
 			(exclude_from_sim no)
 			(in_bom yes)
 			(on_board yes)
-			(property "Reference" "SW"
-				(at 1.27 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(justify left)
-				)
-			)
-			(property "Value" "SW_Push_Dual_x2"
-				(at 0 -1.524 0)
+			(property "Reference" "SW1"
+				(at 0 7.62 0)
 				(effects
 					(font
 						(size 1.27 1.27)
 					)
 				)
 			)
-			(property "Footprint" ""
+			(property "Value" "RESET"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "footprints:435441019830"
 				(at 0 5.08 0)
 				(effects
 					(font
@@ -6004,6 +6003,23 @@
 					(hide yes)
 				)
 			)
+			(property "LCSC Part #" "C720477"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "M_NUMBER" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
 			(property "ki_keywords" "switch normally-open pushbutton push-button"
 				(at 0 0 0)
 				(effects
@@ -6013,7 +6029,7 @@
 					(hide yes)
 				)
 			)
-			(symbol "SW_Push_Dual_x2_0_1"
+			(symbol "SW_Push_Dual_x2_1_0_1"
 				(circle
 					(center -2.032 0)
 					(radius 0.508)
@@ -6061,7 +6077,7 @@
 					)
 				)
 			)
-			(symbol "SW_Push_Dual_x2_1_1"
+			(symbol "SW_Push_Dual_x2_1_1_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -6073,6 +6089,24 @@
 						)
 					)
 					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
 						(effects
 							(font
 								(size 1.27 1.27)
@@ -6098,8 +6132,26 @@
 						)
 					)
 				)
+				(pin passive line
+					(at 5.08 0 180)
+					(length 2.54)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
 			)
-			(symbol "SW_Push_Dual_x2_2_1"
+			(symbol "SW_Push_Dual_x2_1_2_1"
 				(pin passive line
 					(at -5.08 0 0)
 					(length 2.54)
@@ -7596,8 +7648,8 @@
 		(uuid 870eb738-1842-4046-a568-a0665476f494)
 	)
 	(rectangle
-		(start 15.24 191.77)
-		(end 158.75 281.94)
+		(start 15.24 195.58)
+		(end 158.75 285.75)
 		(stroke
 			(width 0)
 			(type dash)
@@ -8008,6 +8060,12 @@
 		(uuid "744cd3b8-ef9d-414c-b9ad-394eba099b8a")
 	)
 	(junction
+		(at 30.48 31.75)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7f25bb20-374f-4aed-9473-561ca8ad091d")
+	)
+	(junction
 		(at 20.32 35.56)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8086,6 +8144,12 @@
 		(uuid "a27c3f05-dc2e-4524-af87-6c8ac73e35a1")
 	)
 	(junction
+		(at 224.79 133.35)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "a4e27204-4bb0-4f1f-90ea-2c9a7cc8eade")
+	)
+	(junction
 		(at 43.18 283.21)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -8114,12 +8178,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "baa1c8d3-8036-452f-b4b4-481aaeb7180d")
-	)
-	(junction
-		(at 30.48 31.75)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "bcb505dc-ab05-4a60-9add-6b9eff39f218")
 	)
 	(junction
 		(at 302.26 -26.67)
@@ -10155,6 +10213,16 @@
 	)
 	(wire
 		(pts
+			(xy 224.79 138.43) (xy 233.68 138.43)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c5fe4168-e9b5-44f4-9885-f5a5794467e6")
+	)
+	(wire
+		(pts
 			(xy 265.43 -20.32) (xy 265.43 -19.05)
 		)
 		(stroke
@@ -10462,6 +10530,16 @@
 			(type default)
 		)
 		(uuid "dc25c964-820b-4378-86be-6a371d4e2257")
+	)
+	(wire
+		(pts
+			(xy 224.79 133.35) (xy 233.68 133.35)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e0411d6a-bea0-4fa2-9bdd-140f1c938d78")
 	)
 	(wire
 		(pts
@@ -12518,6 +12596,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
+			(at 80.01 154.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "2df0ea94-5e88-470a-819f-d777787186f2")
 		)
@@ -12585,6 +12672,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 382.27 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12795,6 +12890,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "80-C0603C105K8P"
+			(at 261.62 -27.94 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ba202a4-ac8e-441c-b185-7b09889a4c30")
 		)
@@ -12863,6 +12967,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 116.84 146.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -12937,6 +13049,15 @@
 			)
 		)
 		(property "Sim.Pin" "1=K 2=A"
+			(at 241.3 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
 			(at 241.3 219.71 0)
 			(effects
 				(font
@@ -13093,6 +13214,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "511-USBLC6-2P6"
+			(at 147.32 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b99e014a-faeb-4d60-82d0-8711011bcbe5")
 		)
@@ -13139,7 +13269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 83.566 135.128 0)
 			(effects
 				(font
@@ -13176,6 +13306,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 76.2 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 76.2 134.62 0)
 			(effects
 				(font
@@ -13252,6 +13391,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" ""
+			(at 157.48 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "2e49197f-0f76-45e4-b3d0-e8cf6900032c")
 		)
@@ -13265,6 +13412,105 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "JP2")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_Dual_x2_1")
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 25.4 54.61 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "0e683f48-b3df-4e71-8d3c-1945f3cb02d0")
+		(property "Reference" "SW3"
+			(at 25.4 46.99 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "BOOT"
+			(at 25.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:435441019830"
+			(at 25.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C720477"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "710-435441019830"
+			(at 25.4 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "93fadb18-2d34-4dc4-9fef-879f9e8261cd")
+		)
+		(pin "1"
+			(uuid "9dd05a5e-796e-4e5b-bdd5-85c44409ed35")
+		)
+		(pin "2"
+			(uuid "452fa80e-1284-4dc3-ba86-d62b4bf4bc6e")
+		)
+		(pin "3"
+			(uuid "2a9052ac-a4d5-4f19-8629-df9ad6811452")
+		)
+		(pin "3"
+			(uuid "a5354806-0e40-4279-a98f-77843080aa9b")
+		)
+		(pin "4"
+			(uuid "572fe527-e17d-48c2-a463-671573786a4c")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "SW3")
 					(unit 1)
 				)
 			)
@@ -13356,7 +13602,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 26.162 281.432 0)
 			(effects
 				(font
@@ -13393,6 +13639,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 19.05 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 19.05 280.67 0)
 			(effects
 				(font
@@ -13540,6 +13795,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 255.27 147.32 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1e34e11c-1220-4a70-83ed-50b7ddf7412d")
 		)
@@ -13608,6 +13871,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 31.75 215.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -13755,6 +14026,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
+			(at 27.94 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "c05e2cae-e570-42b3-8d33-aedd6bb2367d")
 		)
@@ -13823,6 +14103,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" ""
+			(at 157.48 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "9e53a923-8f4b-4f5f-bc55-afb878d27787")
 		)
@@ -13858,7 +14146,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3k3"
 			(at 126.492 215.646 0)
 			(effects
 				(font
@@ -13895,6 +14183,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25890"
+			(at 129.54 214.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 129.54 214.63 0)
 			(effects
 				(font
@@ -14114,6 +14411,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
+			(at 31.75 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "33e073d8-4acb-4012-8d9e-21639063420c")
 		)
@@ -14259,6 +14565,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 241.3 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "6cfe7a50-17d2-4748-b3bf-d435534ac14f")
 		)
@@ -14342,89 +14657,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 25.4 77.47 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "1bd49a01-2a18-440d-abd1-ad3d3ca222d1")
-		(property "Reference" "SW2"
-			(at 25.4 69.85 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "CASE"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_TS-1088-AR02016"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 72.39 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 25.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C720477"
-			(at 25.4 77.47 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "72070547-cb9a-4197-9cf0-c7f6cc2bfeef")
-		)
-		(pin "1"
-			(uuid "6a30a093-877c-4a97-b073-82c24e0ca324")
-		)
-		(pin "2"
-			(uuid "4e073f82-d336-4073-a1f8-815492f70948")
-		)
-		(pin "3"
-			(uuid "37dc1805-c483-4494-8415-e7d85b500aef")
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "SW2")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:C_Small")
 		(at 295.91 -67.31 270)
 		(unit 1)
@@ -14477,6 +14709,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 295.91 -67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "80-C0603C104M4RAC"
 			(at 295.91 -67.31 0)
 			(effects
 				(font
@@ -14561,6 +14802,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-072KL"
+			(at 124.46 209.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5deaaacb-ac20-465e-96a8-dd2b63a058ae")
 		)
@@ -14637,6 +14887,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
+			(at 218.44 156.21 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "0f075ec3-9803-4869-8d3d-fe89957cdc87")
 		)
@@ -14671,7 +14930,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "8V"
+		(property "Value" "8.2V"
 			(at 294.64 223.5199 90)
 			(effects
 				(font
@@ -14680,7 +14939,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 292.1 222.25 90)
 			(effects
 				(font
@@ -14708,6 +14967,15 @@
 			)
 		)
 		(property "LCSC Part #" "C19077406"
+			(at 292.1 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "771-BZT52H-C8V2115"
 			(at 292.1 222.25 0)
 			(effects
 				(font
@@ -14778,6 +15046,15 @@
 			)
 		)
 		(property "Description" "-3.6A Id, -30V Vds, P-Channel MOSFET, SOT-23"
+			(at 364.49 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "78-SI2371EDS-T1-GE3"
 			(at 364.49 -64.77 0)
 			(effects
 				(font
@@ -15023,7 +15300,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2Vf, 20mA, RED"
+		(property "Value" "1.95Vf, 20mA, RED"
 			(at 291.084 236.982 90)
 			(effects
 				(font
@@ -15061,6 +15338,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
+			(at 302.26 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "720-P412Q1S136A8J802"
 			(at 302.26 232.41 0)
 			(effects
 				(font
@@ -15237,6 +15523,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "C3225X7R1H106M250AC"
+			(at 196.85 151.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "5562a027-062e-42ac-b890-a2b527d6e9d6")
 		)
@@ -15400,6 +15695,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "81-GCM188R71H333JA5D"
+			(at 186.69 125.73 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "1a790699-80ff-47bb-b3af-a92c57f5aa15")
 		)
@@ -15467,6 +15771,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 168.91 130.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -15602,6 +15914,15 @@
 			)
 		)
 		(property "LCSC Part #" "C165948"
+			(at 173.99 49.53 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "640-USB4215-03-A"
 			(at 173.99 49.53 0)
 			(effects
 				(font
@@ -15798,6 +16119,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
+			(at 236.22 246.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "32b9c035-2d05-4cb6-9f37-1906d8b4b100")
 		)
@@ -15931,6 +16261,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25531"
+			(at 214.63 161.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
 			(at 214.63 161.29 0)
 			(effects
 				(font
@@ -16151,6 +16490,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 135.89 36.83 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "eca4187f-6f29-40a1-8de3-93bfd03b000f")
 		)
@@ -16217,6 +16565,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 33.02 261.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -16289,6 +16645,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 33.02 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -16425,6 +16789,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 236.22 219.71 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 236.22 219.71 0)
 			(effects
 				(font
@@ -17041,6 +17414,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
+			(at 166.37 138.43 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "bba49507-322d-469a-a35a-3595e65b9063")
 		)
@@ -17190,6 +17572,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "595-TXS0108EPWR"
+			(at 109.22 236.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "14"
 			(uuid "a86c53ed-e841-46e8-8e1c-90a35327c597")
 		)
@@ -17278,7 +17669,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 57.912 281.432 0)
 			(effects
 				(font
@@ -17315,6 +17706,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 50.8 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 50.8 280.67 0)
 			(effects
 				(font
@@ -17600,6 +18000,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-C3225X7R1H106MAC"
+			(at 241.3 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "94d731dd-062e-413e-8fd8-83b9d081eda9")
 		)
@@ -17669,6 +18078,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 382.27 54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "665a995a-7f65-4633-a685-e3985d220fd0")
 		)
@@ -17700,7 +18117,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 105.156 135.128 0)
 			(effects
 				(font
@@ -17737,6 +18154,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 97.79 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 97.79 134.62 0)
 			(effects
 				(font
@@ -17813,6 +18239,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77101"
+			(at 346.71 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" " 81-GRM32ER61C476KE5L"
 			(at 346.71 -57.15 0)
 			(effects
 				(font
@@ -17968,6 +18403,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 241.3 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "e0556c18-2248-4663-8f17-ecd9957cca4c")
 		)
@@ -18036,6 +18480,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 356.87 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 356.87 -57.15 0)
 			(effects
 				(font
@@ -18346,7 +18799,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 43.942 281.432 0)
 			(effects
 				(font
@@ -18383,6 +18836,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 36.83 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 36.83 280.67 0)
 			(effects
 				(font
@@ -18459,6 +18921,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 33.02 238.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "bfcee914-3a3f-464b-bf60-ace83c7c0011")
 		)
@@ -18532,6 +19002,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 194.31 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 194.31 229.87 0)
 			(effects
 				(font
@@ -18676,6 +19155,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 349.25 74.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "f58b5488-4c83-474d-9589-9f19e4b6d6e0")
 		)
@@ -18734,6 +19221,15 @@
 			)
 		)
 		(property "Description" "Ferrite bead, small symbol"
+			(at 143.51 24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "BLM21PG121SN1D"
 			(at 143.51 24.13 0)
 			(effects
 				(font
@@ -18948,6 +19444,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-135K1L"
+			(at 153.67 41.91 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "ea0b640d-10d7-4076-b6c4-0f5b2f2052c8")
 		)
@@ -19047,7 +19552,7 @@
 				)
 			)
 		)
-		(property "Value" "22.1k"
+		(property "Value" "24k9"
 			(at 318.77 -43.434 90)
 			(effects
 				(font
@@ -19083,6 +19588,15 @@
 			)
 		)
 		(property "LCSC Part #" "C844504"
+			(at 316.23 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-1324K9L"
 			(at 316.23 -43.18 0)
 			(effects
 				(font
@@ -19157,6 +19671,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 146.05 87.63 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "3"
@@ -19234,6 +19756,15 @@
 			)
 		)
 		(property "LCSC Part #" "C11702"
+			(at 27.94 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
 			(at 27.94 118.11 0)
 			(effects
 				(font
@@ -19387,6 +19918,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "595-TLV75733PDBVR"
+			(at 327.66 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "3"
 			(uuid "18196a14-d264-461f-afda-c937119b0f34")
 		)
@@ -19464,6 +20004,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 31.75 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6b17006d-1309-4bfb-bff9-47899e59cfaf")
 		)
@@ -19499,7 +20047,7 @@
 				)
 			)
 		)
-		(property "Value" "3.3k"
+		(property "Value" "3k3"
 			(at 123.952 277.876 0)
 			(effects
 				(font
@@ -19535,6 +20083,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25890"
+			(at 127 276.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 127 276.86 0)
 			(effects
 				(font
@@ -19609,6 +20166,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 93.98 269.24 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -19846,7 +20411,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "5k5"
+		(property "Value" "3k74"
 			(at 294.64 228.5999 0)
 			(effects
 				(font
@@ -19883,6 +20448,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25102"
+			(at 292.1 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "71-CRCW06033K74DHEAP"
 			(at 292.1 227.33 0)
 			(effects
 				(font
@@ -20101,6 +20675,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 148.59 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b6f25aa9-487d-4372-b463-35f15174fd20")
 		)
@@ -20177,6 +20760,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" " 81-GRM32ER61C476KE5L"
+			(at 326.39 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4ebc2675-2465-4548-a93f-ca037b48c00c")
 		)
@@ -20244,6 +20836,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 170.18 110.49 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -20387,6 +20987,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 76.2 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "e3e62ff8-3763-48eb-a274-a19dba8fb46b")
 		)
@@ -20519,6 +21128,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" ""
+			(at 19.05 137.16 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -20658,6 +21275,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" ""
+			(at 19.05 118.11 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "e8af119d-a284-4497-b23a-c696aff0deae")
 		)
@@ -20731,6 +21356,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 194.31 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 194.31 217.17 0)
 			(effects
 				(font
@@ -20874,6 +21508,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25905"
+			(at 153.67 39.37 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-135K1L"
 			(at 153.67 39.37 0)
 			(effects
 				(font
@@ -21049,8 +21692,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
-			(at 221.996 136.398 0)
+		(property "Value" "0.1uF"
+			(at 221.996 136.652 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -21086,6 +21729,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 214.63 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 214.63 135.89 0)
 			(effects
 				(font
@@ -21173,6 +21825,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 265.43 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "44773f64-022b-4fa0-860c-ee622a82b562")
 		)
@@ -21239,6 +21899,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 33.02 273.05 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -21376,6 +22044,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "241-SS0530_R1_00001"
+			(at 384.81 -43.18 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "d87e09da-a229-445e-ba25-47a32d918313")
 		)
@@ -21410,7 +22087,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 42.926 130.048 0)
 			(effects
 				(font
@@ -21447,6 +22124,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 35.56 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 35.56 129.54 0)
 			(effects
 				(font
@@ -21523,6 +22209,15 @@
 			)
 		)
 		(property "LCSC Part #" "C481918"
+			(at 316.23 -50.8 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-07100KL"
 			(at 316.23 -50.8 0)
 			(effects
 				(font
@@ -21631,7 +22326,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2Vf, 20mA, RED"
+		(property "Value" "1.95Vf, 20mA, RED"
 			(at 264.414 234.696 90)
 			(effects
 				(font
@@ -21677,6 +22372,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P412Q1S136A8J802"
+			(at 266.7 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "ed59ab90-edc2-4a2a-8b3e-ff0332ef9d9c")
 		)
@@ -21711,7 +22415,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "6V"
+		(property "Value" "6.2V"
 			(at 304.8 223.5199 90)
 			(effects
 				(font
@@ -21720,7 +22424,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 302.26 222.25 90)
 			(effects
 				(font
@@ -21748,6 +22452,15 @@
 			)
 		)
 		(property "LCSC Part #" "C115277"
+			(at 302.26 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "771-BZT52H-C6V2-QX"
 			(at 302.26 222.25 0)
 			(effects
 				(font
@@ -21790,7 +22503,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 36.322 281.432 0)
 			(effects
 				(font
@@ -21827,6 +22540,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 29.21 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 29.21 280.67 0)
 			(effects
 				(font
@@ -22115,6 +22837,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 199.39 229.87 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "deb98292-d127-4d57-bfff-3c7d76c4dc1d")
 		)
@@ -22182,6 +22913,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 382.27 67.31 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -22252,6 +22991,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 255.27 -16.51 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" " 81-GRM188R6YA475KE5D"
 			(at 255.27 -16.51 0)
 			(effects
 				(font
@@ -22533,6 +23281,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "595-LMR33630ADDAR"
+			(at 279.4 -54.61 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "8"
 			(uuid "6cd6cb70-9ebb-43d8-9ca1-0ba7b8d0aaa6")
 		)
@@ -22625,6 +23382,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 154.94 22.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 154.94 22.86 0)
 			(effects
 				(font
@@ -22869,6 +23635,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "C3225X7R1H106M250AC"
+			(at 58.42 149.86 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "16"
 			(uuid "f2d6d253-90aa-4c74-a5bf-99126365d860")
 		)
@@ -23032,6 +23807,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-C2012X7R1H224K"
+			(at 252.73 -64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "598ea028-03f1-4008-b0e4-6e7fd8edc37b")
 		)
@@ -23100,6 +23884,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 25.4 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 25.4 81.28 0)
 			(effects
 				(font
@@ -23243,6 +24036,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 31.75 201.93 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "010627a2-3d26-4ad7-ad12-f3daba7ca374")
 		)
@@ -23265,89 +24066,6 @@
 			(project ""
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "J8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Switch:SW_Push_Dual_x2")
-		(at 25.4 54.61 0)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "985060e6-3059-4cbf-bcc3-42651edcce80")
-		(property "Reference" "SW5"
-			(at 25.4 46.99 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "BOOT"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "footprints:SW_TS-1088-AR02016"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 25.4 49.53 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Push button switch, generic, separate symbols, four pins"
-			(at 25.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "LCSC Part #" "C720477"
-			(at 25.4 54.61 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "4"
-			(uuid "72070547-cb9a-4197-9cf0-c7f6cc2bfef0")
-		)
-		(pin "1"
-			(uuid "969dcc8a-4ff4-4ad7-8866-7e702c4ce6b0")
-		)
-		(pin "2"
-			(uuid "db1875e5-df71-4d53-b92b-e41180b07a09")
-		)
-		(pin "3"
-			(uuid "37dc1805-c483-4494-8415-e7d85b500af0")
-		)
-		(instances
-			(project ""
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(reference "SW5")
 					(unit 1)
 				)
 			)
@@ -23409,6 +24127,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1614"
+			(at 48.26 124.46 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "81-GCM188R71H333JA5D"
 			(at 48.26 124.46 0)
 			(effects
 				(font
@@ -23517,7 +24244,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2Vf, 20mA, RED"
+		(property "Value" "LED_Small"
 			(at 323.342 233.172 90)
 			(effects
 				(font
@@ -23555,6 +24282,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
+			(at 340.36 231.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
 			(at 340.36 231.14 0)
 			(effects
 				(font
@@ -23707,6 +24443,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "80-C0603C105K8P"
+			(at 33.02 34.29 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "90aa2f41-8314-4597-8f01-00ddc5d9af2f")
 		)
@@ -23717,6 +24462,105 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "C32")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_name "SW_Push_Dual_x2_1")
+		(lib_id "Switch:SW_Push_Dual_x2")
+		(at 25.4 77.47 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "9fe37ff7-f068-476a-93a0-caf254333e66")
+		(property "Reference" "SW2"
+			(at 25.4 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "CASE"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "footprints:435441019830"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 25.4 72.39 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Push button switch, generic, separate symbols, four pins"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C720477"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "710-435441019830"
+			(at 25.4 77.47 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "3b73715d-6680-414b-a4f0-d280c4398d95")
+		)
+		(pin "1"
+			(uuid "0dba362e-ed50-486f-b065-cf4030d8b5cd")
+		)
+		(pin "2"
+			(uuid "5e62aa5b-7e76-4511-9c56-012a77c08e4f")
+		)
+		(pin "3"
+			(uuid "2a7b9fab-87e0-4585-8642-2d719f4333c1")
+		)
+		(pin "3"
+			(uuid "a5354806-0e40-4279-a98f-77843080aa9c")
+		)
+		(pin "4"
+			(uuid "572fe527-e17d-48c2-a463-671573786a4d")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "SW2")
 					(unit 1)
 				)
 			)
@@ -24118,6 +24962,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 199.39 217.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "af8a259a-db93-46ea-a8e7-38ef12dcbed3")
 		)
@@ -24416,7 +25269,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "68"
+		(property "Value" "1k"
 			(at 269.24 226.0599 0)
 			(effects
 				(font
@@ -24461,6 +25314,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
+			(at 266.7 224.79 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "718c5c95-3b06-459b-94b5-169e22470f55")
 		)
@@ -24495,7 +25357,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 180.086 133.858 0)
 			(effects
 				(font
@@ -24532,6 +25394,15 @@
 			)
 		)
 		(property "LCSC Part #" "C77050"
+			(at 172.72 133.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 172.72 133.35 0)
 			(effects
 				(font
@@ -24616,6 +25487,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
+			(at 76.2 160.02 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "9d1f44c5-e92b-4db4-b08f-2c8db932eead")
 		)
@@ -24626,6 +25506,94 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "R14")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C_Small")
+		(at 233.68 135.89 0)
+		(mirror y)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "b97ac198-a576-4dda-a601-314898400f13")
+		(property "Reference" "C34"
+			(at 239.522 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "0.1uF"
+			(at 241.046 136.652 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Capacitor_SMD:C_0603_1608Metric"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor, small symbol"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part #" "C77050"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 233.68 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "670a6078-e2c9-46c0-a383-e2de9dc5abc7")
+		)
+		(pin "2"
+			(uuid "2769a391-6840-4749-9ff3-0809fa12c7db")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "C34")
 					(unit 1)
 				)
 			)
@@ -24782,7 +25750,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "7k5"
+		(property "Value" "5k"
 			(at 284.48 228.5999 0)
 			(effects
 				(font
@@ -24819,6 +25787,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25112"
+			(at 281.94 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-077K5L"
 			(at 281.94 227.33 0)
 			(effects
 				(font
@@ -24898,6 +25875,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 148.59 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 148.59 257.81 0)
 			(effects
 				(font
@@ -25049,6 +26035,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" " 81-GRM32ER61C476KE5L"
+			(at 336.55 -57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "24df50ff-83ca-4bd7-8d7f-c3fc34294c8d")
 		)
@@ -25126,6 +26121,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 25.4 35.56 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "56baa833-e0eb-48b7-85f4-1f9c1c8b4eba")
 		)
@@ -25160,7 +26164,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k"
 			(at 304.8 228.5999 0)
 			(effects
 				(font
@@ -25197,6 +26201,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25087"
+			(at 302.26 227.33 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 302.26 227.33 0)
 			(effects
 				(font
@@ -25415,6 +26428,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3EDX7T1A106M0"
+			(at 311.15 -24.13 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0cb78de6-50c6-401e-aea7-26a085eb6dee")
 		)
@@ -25482,6 +26504,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 31.75 129.54 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -25559,6 +26589,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
+			(at 236.22 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "b0314b6e-0e10-43ab-8ac0-7a4a1fcf3a51")
 		)
@@ -25593,7 +26632,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 31.242 281.432 0)
 			(effects
 				(font
@@ -25630,6 +26669,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 24.13 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 24.13 280.67 0)
 			(effects
 				(font
@@ -25708,6 +26756,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 194.31 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 194.31 257.81 0)
 			(effects
 				(font
@@ -25814,7 +26871,7 @@
 				)
 			)
 		)
-		(property "Value" "10uH, 27mOhm"
+		(property "Value" "8.2uH, 21mOhm"
 			(at 311.658 -62.23 90)
 			(effects
 				(font
@@ -25822,7 +26879,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:IND_XAL6060-103MEC"
+		(property "Footprint" "Inductor_SMD:L_Coilcraft_XAL4040-XXX"
 			(at 308.61 -59.69 0)
 			(effects
 				(font
@@ -25850,6 +26907,15 @@
 			)
 		)
 		(property "LCSC Part #" "C5329540"
+			(at 308.61 -59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "994-XAL4040-822MEC"
 			(at 308.61 -59.69 0)
 			(effects
 				(font
@@ -26071,6 +27137,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3EDX7T1A106M0"
+			(at 86.36 25.4 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "5ace715b-4b3e-4545-a412-ec8ecfcbd02d")
 		)
@@ -26282,6 +27357,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3EDX7T1A106M0"
+			(at 345.44 -26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "0239503a-f1ae-4770-8a4b-43f1ed1c5a4a")
 		)
@@ -26352,6 +27436,15 @@
 			)
 		)
 		(property "LCSC Part #" "C701341"
+			(at 71.12 57.15 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "356-ESP32S3WROOM1UN4"
 			(at 71.12 57.15 0)
 			(effects
 				(font
@@ -26642,7 +27735,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2Vf, 20mA, RED"
+		(property "Value" "1.95Vf, 20mA, RED"
 			(at 280.924 236.982 90)
 			(effects
 				(font
@@ -26680,6 +27773,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
+			(at 292.1 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "720-P412Q1S136A8J802"
 			(at 292.1 232.41 0)
 			(effects
 				(font
@@ -27103,6 +28205,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 199.39 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "922efd5a-6377-4c9a-993f-9ff7b5e052e2")
 		)
@@ -27180,6 +28291,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
+			(at 166.37 119.38 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "7d26aa41-6c67-47c1-b2ab-e89fad84a4b6")
 		)
@@ -27249,6 +28369,15 @@
 			)
 		)
 		(property "LCSC Part #" "C477765"
+			(at 34.29 73.66 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "303-0603SAF430KT5E"
 			(at 34.29 73.66 0)
 			(effects
 				(font
@@ -27356,7 +28485,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100nF"
+		(property "Value" "0.1uF"
 			(at 50.292 281.432 0)
 			(effects
 				(font
@@ -27393,6 +28522,15 @@
 			)
 		)
 		(property "LCSC Part #" "C437568"
+			(at 43.18 280.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 43.18 280.67 0)
 			(effects
 				(font
@@ -27468,6 +28606,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 382.27 64.77 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27736,6 +28882,14 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "-"
+			(at 246.38 -17.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "c4cef3d1-ed65-4e08-b433-bf648ad5d07d")
 		)
@@ -27770,8 +28924,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 232.156 136.398 0)
+		(property "Value" "100uF - low ESR"
+			(at 237.236 132.334 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27804,6 +28958,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 224.79 135.89 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27840,8 +29002,8 @@
 				(justify left)
 			)
 		)
-		(property "Value" "100uF"
-			(at 93.726 135.128 0)
+		(property "Value" "100uF - low ESR"
+			(at 96.774 128.27 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -27874,6 +29036,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 86.36 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "1"
@@ -27956,6 +29126,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 199.39 257.81 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "9a265414-969c-452c-8695-d308134cce62")
 		)
@@ -28022,6 +29201,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 95.25 207.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -28135,7 +29322,7 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Diode_SMD:Nexperia_CFP3_SOD-123W"
+		(property "Footprint" "Diode_SMD:D_SOD-123F"
 			(at 281.94 222.25 90)
 			(effects
 				(font
@@ -28163,6 +29350,15 @@
 			)
 		)
 		(property "LCSC Part #" "C173431"
+			(at 281.94 222.25 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "771-BZT52H-A10-QX"
 			(at 281.94 222.25 0)
 			(effects
 				(font
@@ -28302,6 +29498,14 @@
 					(size 1.27 1.27)
 				)
 				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 33.02 250.19 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
 			)
 		)
 		(pin "2"
@@ -28455,6 +29659,7 @@
 		)
 	)
 	(symbol
+		(lib_name "SW_Push_Dual_x2_1")
 		(lib_id "Switch:SW_Push_Dual_x2")
 		(at 25.4 31.75 0)
 		(unit 1)
@@ -28480,7 +29685,7 @@
 				)
 			)
 		)
-		(property "Footprint" "footprints:SW_TS-1088-AR02016"
+		(property "Footprint" "footprints:435441019830"
 			(at 25.4 26.67 0)
 			(effects
 				(font
@@ -28516,6 +29721,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "710-435441019830"
+			(at 25.4 31.75 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "4"
 			(uuid "72070547-cb9a-4197-9cf0-c7f6cc2bfef1")
 		)
@@ -28527,6 +29741,12 @@
 		)
 		(pin "3"
 			(uuid "37dc1805-c483-4494-8415-e7d85b500af1")
+		)
+		(pin "3"
+			(uuid "a5354806-0e40-4279-a98f-77843080aa9d")
+		)
+		(pin "4"
+			(uuid "572fe527-e17d-48c2-a463-671573786a4e")
 		)
 		(instances
 			(project "minisumo_2025"
@@ -28592,6 +29812,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25531"
+			(at 33.02 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-0710KL"
 			(at 33.02 26.67 0)
 			(effects
 				(font
@@ -28670,6 +29899,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 236.22 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
 			(at 236.22 260.35 0)
 			(effects
 				(font
@@ -28822,6 +30060,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "603-RC0603FR-073K3L"
+			(at 194.31 243.84 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "823be54a-ac59-4d70-a9c4-7843bb4afd54")
 		)
@@ -28902,6 +30149,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "720-P4112S2U1252X4X5"
+			(at 241.3 260.35 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "2"
 			(uuid "4a7fd3d7-c5a9-4b0d-8d25-f809be974338")
 		)
@@ -28970,6 +30226,15 @@
 			)
 		)
 		(property "LCSC Part #" "C4109"
+			(at 123.19 271.78 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-072KL"
 			(at 123.19 271.78 0)
 			(effects
 				(font
@@ -29122,6 +30387,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 25.4 58.42 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "be94eb97-8dfa-4184-9c3d-cc5289b8d546")
 		)
@@ -29266,6 +30540,15 @@
 				(hide yes)
 			)
 		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
+			(at 138.43 26.67 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
 		(pin "1"
 			(uuid "b5ea2ed8-9fa7-4bd4-9caa-4c92630dc762")
 		)
@@ -29336,6 +30619,15 @@
 			)
 		)
 		(property "LCSC Part #" "C25131"
+			(at 340.36 226.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "603-RC0603FR-071KL"
 			(at 340.36 226.06 0)
 			(effects
 				(font
@@ -29511,7 +30803,7 @@
 				(justify right)
 			)
 		)
-		(property "Value" "2Vf, 20mA, RED"
+		(property "Value" "1.95Vf, 20mA, RED"
 			(at 270.764 236.982 90)
 			(effects
 				(font
@@ -29549,6 +30841,15 @@
 			)
 		)
 		(property "LCSC Part #" "C2286"
+			(at 281.94 232.41 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "720-P412Q1S136A8J802"
 			(at 281.94 232.41 0)
 			(effects
 				(font
@@ -29627,6 +30928,15 @@
 			)
 		)
 		(property "LCSC Part #" "C1525"
+			(at 134.62 259.08 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "810-CGA3E2X7R1H104K"
 			(at 134.62 259.08 0)
 			(effects
 				(font
