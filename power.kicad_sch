@@ -4,6 +4,13 @@
 	(generator_version "9.0")
 	(uuid "05274c7c-e18b-4d42-8c64-36773aaac675")
 	(paper "A4")
+	(title_block
+		(title "Minisumo PCB")
+		(date "2025-04-16")
+		(rev "3.2")
+		(comment 2 "alex_ivan1304@outlook.com")
+		(comment 3 "Designed by: Ivan Alexandru Marian")
+	)
 	(lib_symbols
 		(symbol "2025-02-15_18-47-44:TLV75730PDBVR"
 			(pin_names

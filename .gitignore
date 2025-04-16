@@ -3,3 +3,5 @@
 *-backups
 *-bak
 fp-info-cache
+production
+*.csv
