@@ -48,7 +48,7 @@
         "silk_text_thickness": 0.1,
         "silk_text_upright": false,
         "zones": {
-          "min_clearance": 0.25
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -760,10 +760,6 @@
     [
       "dbf10646-b126-4ca4-a230-9b4833f2ff67",
       "POWER"
-    ],
-    [
-      "4e70a22e-51fe-41e9-b6e4-6676a2d414f6",
-      "LEDS"
     ]
   ],
   "text_variables": {}

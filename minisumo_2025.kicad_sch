@@ -3,7 +3,7 @@
 	(generator "eeschema")
 	(generator_version "9.0")
 	(uuid "cdca51c8-556b-4873-bdb8-43b7170e2006")
-	(paper "A3")
+	(paper "A4")
 	(lib_symbols
 		(symbol "Connector:TestPoint"
 			(pin_numbers
@@ -113,9 +113,45 @@
 			(embedded_fonts no)
 		)
 	)
+	(rectangle
+		(start 128.27 83.82)
+		(end 196.85 116.84)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid 8987ccd8-1e87-4264-9c8e-4dabd3f2968a)
+	)
+	(rectangle
+		(start 99.06 83.82)
+		(end 124.46 146.05)
+		(stroke
+			(width 0)
+			(type dash)
+		)
+		(fill
+			(type none)
+		)
+		(uuid a8004da7-9ba9-454e-9338-ca6f4625f545)
+	)
+	(text "Contents\n"
+		(exclude_from_sim no)
+		(at 102.87 82.55 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+				(thickness 0.254)
+				(bold yes)
+			)
+		)
+		(uuid "94956795-4ccd-47a6-bdee-2260c8eaad71")
+	)
 	(text "Pinout\n"
 		(exclude_from_sim no)
-		(at 341.376 40.132 0)
+		(at 130.81 82.55 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -125,9 +161,21 @@
 		)
 		(uuid "a4ee6afc-637a-499d-9000-7d7cf38cc302")
 	)
+	(text "MINISUMO PCB"
+		(exclude_from_sim no)
+		(at 151.13 72.39 0)
+		(effects
+			(font
+				(size 7.62 7.62)
+				(thickness 1.524)
+				(bold yes)
+			)
+		)
+		(uuid "db49b199-c581-42ba-b4b3-24c50b9510b8")
+	)
 	(wire
 		(pts
-			(xy 344.17 64.77) (xy 349.25 64.77)
+			(xy 139.7 104.14) (xy 144.78 104.14)
 		)
 		(stroke
 			(width 0)
@@ -137,7 +185,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 72.39) (xy 382.27 72.39)
+			(xy 172.72 111.76) (xy 177.8 111.76)
 		)
 		(stroke
 			(width 0)
@@ -147,7 +195,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 52.07) (xy 382.27 52.07)
+			(xy 172.72 91.44) (xy 177.8 91.44)
 		)
 		(stroke
 			(width 0)
@@ -157,7 +205,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 67.31) (xy 349.25 67.31)
+			(xy 139.7 106.68) (xy 144.78 106.68)
 		)
 		(stroke
 			(width 0)
@@ -167,7 +215,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 46.99) (xy 349.25 46.99)
+			(xy 139.7 86.36) (xy 144.78 86.36)
 		)
 		(stroke
 			(width 0)
@@ -177,7 +225,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 59.69) (xy 382.27 59.69)
+			(xy 172.72 99.06) (xy 177.8 99.06)
 		)
 		(stroke
 			(width 0)
@@ -187,7 +235,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 52.07) (xy 349.25 52.07)
+			(xy 139.7 91.44) (xy 144.78 91.44)
 		)
 		(stroke
 			(width 0)
@@ -197,7 +245,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 57.15) (xy 382.27 57.15)
+			(xy 172.72 96.52) (xy 177.8 96.52)
 		)
 		(stroke
 			(width 0)
@@ -207,7 +255,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 67.31) (xy 382.27 67.31)
+			(xy 172.72 106.68) (xy 177.8 106.68)
 		)
 		(stroke
 			(width 0)
@@ -217,7 +265,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 64.77) (xy 382.27 64.77)
+			(xy 172.72 104.14) (xy 177.8 104.14)
 		)
 		(stroke
 			(width 0)
@@ -227,7 +275,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 62.23) (xy 349.25 62.23)
+			(xy 139.7 101.6) (xy 144.78 101.6)
 		)
 		(stroke
 			(width 0)
@@ -237,7 +285,7 @@
 	)
 	(wire
 		(pts
-			(xy 382.27 46.99) (xy 377.19 46.99)
+			(xy 177.8 86.36) (xy 172.72 86.36)
 		)
 		(stroke
 			(width 0)
@@ -247,7 +295,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 49.53) (xy 349.25 49.53)
+			(xy 139.7 88.9) (xy 144.78 88.9)
 		)
 		(stroke
 			(width 0)
@@ -257,7 +305,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 69.85) (xy 382.27 69.85)
+			(xy 172.72 109.22) (xy 177.8 109.22)
 		)
 		(stroke
 			(width 0)
@@ -267,7 +315,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 74.93) (xy 349.25 74.93)
+			(xy 139.7 114.3) (xy 144.78 114.3)
 		)
 		(stroke
 			(width 0)
@@ -277,7 +325,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 62.23) (xy 382.27 62.23)
+			(xy 172.72 101.6) (xy 177.8 101.6)
 		)
 		(stroke
 			(width 0)
@@ -287,7 +335,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 54.61) (xy 349.25 54.61)
+			(xy 139.7 93.98) (xy 144.78 93.98)
 		)
 		(stroke
 			(width 0)
@@ -297,7 +345,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 59.69) (xy 349.25 59.69)
+			(xy 139.7 99.06) (xy 144.78 99.06)
 		)
 		(stroke
 			(width 0)
@@ -307,7 +355,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 72.39) (xy 349.25 72.39)
+			(xy 139.7 111.76) (xy 144.78 111.76)
 		)
 		(stroke
 			(width 0)
@@ -317,7 +365,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 54.61) (xy 382.27 54.61)
+			(xy 172.72 93.98) (xy 177.8 93.98)
 		)
 		(stroke
 			(width 0)
@@ -327,7 +375,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 74.93) (xy 382.27 74.93)
+			(xy 172.72 114.3) (xy 177.8 114.3)
 		)
 		(stroke
 			(width 0)
@@ -337,7 +385,7 @@
 	)
 	(wire
 		(pts
-			(xy 377.19 49.53) (xy 382.27 49.53)
+			(xy 172.72 88.9) (xy 177.8 88.9)
 		)
 		(stroke
 			(width 0)
@@ -347,7 +395,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 57.15) (xy 349.25 57.15)
+			(xy 139.7 96.52) (xy 144.78 96.52)
 		)
 		(stroke
 			(width 0)
@@ -357,7 +405,7 @@
 	)
 	(wire
 		(pts
-			(xy 344.17 69.85) (xy 349.25 69.85)
+			(xy 139.7 109.22) (xy 144.78 109.22)
 		)
 		(stroke
 			(width 0)
@@ -365,440 +413,956 @@
 		)
 		(uuid "e98451b1-3346-4a1f-929c-7f73caba7732")
 	)
-	(label "CASE"
-		(at 349.25 49.53 0)
+	(global_label "CASE"
+		(shape input)
+		(at 144.78 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "0aa4d766-8592-4b9d-b943-8ee2f6aeee0e")
+		(uuid "14b981ec-834b-4b41-bc98-6b62286bd5d3")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 152.4823 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "IN2_2"
-		(at 349.25 72.39 0)
+	(global_label "GPIO8"
+		(shape input)
+		(at 139.7 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "17bbe9b1-20d2-419d-a3c0-30fdd92c75f0")
+		(uuid "154c1c1b-a0aa-4cec-a160-6940e24ed384")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO7"
-		(at 344.17 59.69 180)
+	(global_label "GPIO36"
+		(shape input)
+		(at 172.72 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "2b6d833d-f034-45d0-86db-23822225591b")
+		(uuid "17186fee-d52b-4d2c-a759-459f372b83da")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO14"
-		(at 377.19 46.99 180)
+	(global_label "IN2_2"
+		(shape input)
+		(at 144.78 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "33a54311-3268-414f-b2af-c31f77ab8653")
+		(uuid "19abf8a2-0e70-4cfe-8087-d6fe24e8669c")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.0871 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SCL"
-		(at 382.27 72.39 0)
+	(global_label "GPIO38"
+		(shape input)
+		(at 172.72 109.22 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "35c03ae6-cd37-4a34-9eb9-d00c6f9f47bd")
+		(uuid "19b8c248-97a9-4ca1-873f-dffa24d0a7cd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO16"
-		(at 377.19 52.07 180)
+	(global_label "GPIO4"
+		(shape input)
+		(at 139.7 91.44 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "36901005-c648-4c6f-916e-088100999e72")
+		(uuid "274116b1-6a66-4cea-a87c-b42fb4ee9308")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO36"
-		(at 377.19 64.77 180)
+	(global_label "GPIO35"
+		(shape input)
+		(at 172.72 101.6 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "36d695a5-b841-4b14-ac65-a9be6c8eecac")
+		(uuid "29181839-f207-4c5b-b8e0-8e52cf14a5dd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "DISTANCE_INTR"
-		(at 382.27 46.99 0)
+	(global_label "GPIO18"
+		(shape input)
+		(at 172.72 96.52 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "3b0a442c-2469-4d31-a7cb-984997d9500e")
+		(uuid "35359091-84db-470e-b3ea-408ed2d663bf")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "LINE_RIGHT"
-		(at 382.27 57.15 0)
+	(global_label "DISTANCE_L90"
+		(shape input)
+		(at 144.78 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "44010264-4db5-4dc0-a068-d1255d904b2d")
+		(uuid "36101b5c-c75d-49de-be21-6a0d91e8a8de")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 161.0699 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO37"
-		(at 377.19 67.31 180)
+	(global_label "GPIO10"
+		(shape input)
+		(at 139.7 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "4bc51110-df53-476b-9ec4-62800c4a7423")
+		(uuid "371a570e-01bd-4e5d-8875-d5d4720319ae")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8205 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO2"
-		(at 344.17 49.53 180)
+	(global_label "DISTANCE_INTR"
+		(shape input)
+		(at 177.8 86.36 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "6306b4b7-bf1d-40df-8d03-9674c7e52cea")
+		(uuid "39192b7c-01f9-448f-8b29-94ffa1cde567")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.8157 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "IN1_2"
-		(at 349.25 69.85 0)
+	(global_label "IN1_2"
+		(shape input)
+		(at 144.78 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "63be7df6-8234-4a80-8e42-cb8ea71a9d54")
+		(uuid "3e0708e6-6212-454c-bb58-ac22c6e62749")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.0871 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO9"
-		(at 344.17 64.77 180)
+	(global_label "GPIO5"
+		(shape input)
+		(at 139.7 93.98 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "65fc53d5-5a0f-400e-839f-9627dff33f43")
+		(uuid "40d16893-d7ad-42b2-9d81-b2df15f4266f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "IN1_1"
-		(at 349.25 64.77 0)
+	(global_label "INDICATOR_LED"
+		(shape input)
+		(at 177.8 109.22 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "7420563b-1081-4bad-96ab-42801576150b")
+		(uuid "410d3cd0-cf00-4094-91df-ad6abf6b331b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.9367 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "SDA"
-		(at 382.27 74.93 0)
+	(global_label "DISTANCE_RF"
+		(shape input)
+		(at 177.8 91.44 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "764c3b71-9376-4825-8bb3-52ec04f6f118")
+		(uuid "42c47b2a-1c6e-46fc-821a-387e7d19bd9f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 193.0014 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO48"
-		(at 377.19 74.93 180)
+	(global_label "GPIO9"
+		(shape input)
+		(at 139.7 104.14 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "7b147957-1948-4b9f-899e-ecc3c0e34fe0")
-	)
-	(label "DISTANCE_RF"
-		(at 382.27 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
+		(uuid "484e86be-20a6-46ce-a57a-ece705a696a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
 			)
-			(justify left bottom)
 		)
-		(uuid "7dce6396-df36-45a0-bc19-bc653a22681a")
 	)
-	(label "DISTANCE_LF"
-		(at 349.25 54.61 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "7fad9ac0-0f6b-40f7-94f4-c84ee5dec14e")
-	)
-	(label "LINE_LEFT"
-		(at 349.25 62.23 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "825fa35a-3646-40dc-ac55-519ea5658ecc")
-	)
-	(label "DISTANCE_R90"
-		(at 382.27 49.53 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "8a4d77f3-f444-485b-b2f0-2c638567a5c6")
-	)
-	(label "GPIO35"
-		(at 377.19 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "90e1217f-e481-49f7-ad91-87abbcab4188")
-	)
-	(label "DISTANCE_R"
-		(at 349.25 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "9538c324-01f8-4a7d-9691-d2e33b7ba054")
-	)
-	(label "GPIO6"
-		(at 344.17 57.15 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9a7508eb-aed4-4796-bfd3-242a95132a46")
-	)
-	(label "GPIO4"
-		(at 344.17 52.07 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "9dcccdbd-2ff7-42bb-a64d-14ead1733804")
-	)
-	(label "GPIO38"
-		(at 377.19 69.85 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a3e8f622-33e0-443e-98de-54e845c25108")
-	)
-	(label "GPIO13"
-		(at 344.17 74.93 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "a45cb69f-1bac-4b46-8d52-6cf1c60268cf")
-	)
-	(label "XSHUT"
-		(at 382.27 59.69 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "a7867cf3-cde4-424d-9ab8-86840a5b100b")
-	)
-	(label "GPIO5"
-		(at 344.17 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b5da70e3-052d-475f-a1cf-ea7b2ec091dd")
-	)
-	(label "GPIO21"
-		(at 377.19 59.69 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b67f0f84-e7cd-4f8b-9c1f-897b09fbbc1d")
-	)
-	(label "GPIO17"
-		(at 377.19 54.61 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "b7e04e31-2fd3-43e4-a732-ded0eab14ad5")
-	)
-	(label "IN2_1"
-		(at 349.25 67.31 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "bc8d5e4b-8a61-4a1d-b4ef-e344c7f42076")
-	)
-	(label "GPIO8"
-		(at 344.17 62.23 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "bfb5b563-5702-40eb-b807-7468fec9faca")
-	)
-	(label "DISTANCE_L90"
-		(at 349.25 52.07 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "c02dc873-daec-4c6b-9848-a9795ab8b923")
-	)
-	(label "GPIO12"
-		(at 344.17 72.39 180)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right bottom)
-		)
-		(uuid "c1147fb0-01a5-46d2-b0ef-2e1bd747d518")
-	)
-	(label "GPIO47"
-		(at 377.19 72.39 180)
+	(global_label "GPIO47"
+		(shape input)
+		(at 172.72 111.76 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 				(thickness 0.1588)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "c31da9a6-ca26-423d-b652-46e0b7dc596c")
+		(uuid "5437c144-91f2-4405-be4d-0a59df13063b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO11"
-		(at 344.17 69.85 180)
+	(global_label "GPIO48"
+		(shape input)
+		(at 172.72 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "d3489818-579b-4b28-bba9-8a7f65e45995")
+		(uuid "57211850-b0df-431c-b74d-f46153d32b90")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO10"
-		(at 344.17 67.31 180)
+	(global_label "GPIO1"
+		(shape input)
+		(at 139.7 86.36 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "d38b26ba-3fa3-4d9e-802e-b8e5e569e88a")
+		(uuid "5725c5d0-3249-4de0-9786-a25cee058cc9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO18"
-		(at 377.19 57.15 180)
+	(global_label "GPIO37"
+		(shape input)
+		(at 172.72 106.68 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify right)
 		)
-		(uuid "d7c0e664-f7fc-4067-ac99-0f24e969ce85")
+		(uuid "57888d26-bdb8-4b8d-bfff-665cbe54e2b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO15"
-		(at 377.19 49.53 180)
+	(global_label "DISTANCE_R90"
+		(shape input)
+		(at 177.8 88.9 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "e28b5332-7284-4522-be43-624bea9bb8ad")
+		(uuid "5ab5033b-8a8b-4866-94ae-543b206e2a8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 194.3318 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "GPIO1"
-		(at 344.17 46.99 180)
+	(global_label "DISTANCE_L"
+		(shape input)
+		(at 144.78 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right bottom)
+			(justify left)
 		)
-		(uuid "f407169b-fbb3-4d55-8638-a7251a8f7745")
+		(uuid "6b667870-8ec0-423a-9171-0c60cbf45b28")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.6509 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "INDICATOR_LED"
-		(at 382.27 69.85 0)
+	(global_label "SCL"
+		(shape input)
+		(at 177.8 111.76 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f4df9bc5-5a6e-4371-8389-51d53b9edb9a")
+		(uuid "7ab85410-f11c-4215-a7f1-614e8e93c803")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.2928 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "START"
-		(at 349.25 46.99 0)
+	(global_label "LINE_RIGHT"
+		(shape input)
+		(at 177.8 96.52 0)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify left)
 		)
-		(uuid "f9576545-c76a-4a00-ae11-1b59b4dbf94a")
+		(uuid "83d36012-a96b-44fc-ad89-00764ea507e7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 191.3081 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
 	)
-	(label "DISTANCE_L"
-		(at 349.25 57.15 0)
+	(global_label "GPIO13"
+		(shape input)
+		(at 139.7 114.3 180)
+		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right)
 		)
-		(uuid "fc0b7c97-052e-4d2b-a206-769cf4eb2a0c")
+		(uuid "87e730de-c502-456d-bd98-a7c566a872a5")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8205 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO14"
+		(shape input)
+		(at 172.72 86.36 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "90145899-daaf-4d9b-bf7c-d9f58be1d97f")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISTANCE_R"
+		(shape input)
+		(at 144.78 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "9ca9acba-1b72-4a5d-b77c-5430cff9c3b9")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8928 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO16"
+		(shape input)
+		(at 172.72 91.44 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "a0071f3e-991b-458f-8719-604e9c078cf1")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 91.44 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "START"
+		(shape input)
+		(at 144.78 86.36 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "a7e4dd69-ff8e-4632-88a9-ef836587d2fe")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.2685 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO12"
+		(shape input)
+		(at 139.7 111.76 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b3f186b0-afc3-4118-9119-aa3fa63dcb67")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8205 111.76 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO11"
+		(shape input)
+		(at 139.7 109.22 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "b57d2eb1-f7e3-4116-8581-37d484e41c57")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 129.8205 109.22 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SDA"
+		(shape input)
+		(at 177.8 114.3 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b99df686-220d-44d8-a613-0eff06b39e61")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 184.3533 114.3 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "LINE_LEFT"
+		(shape input)
+		(at 144.78 101.6 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "c031f1de-1252-4c59-9235-6052e59dfde6")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 157.0785 101.6 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN1_1"
+		(shape input)
+		(at 144.78 104.14 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "cce902a0-b6be-4cc9-b9aa-b97fa7d427a7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.0871 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "IN2_1"
+		(shape input)
+		(at 144.78 106.68 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "d54ac41e-8868-40e7-b983-7ecef8a3daa7")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 153.0871 106.68 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO15"
+		(shape input)
+		(at 172.72 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dcb6054c-48e3-4fe8-be55-0a3141b89255")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO21"
+		(shape input)
+		(at 172.72 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "dd01c3a8-8587-40d2-a6ca-9ac6358792f2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO17"
+		(shape input)
+		(at 172.72 93.98 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "df38b502-7c8b-4150-972b-340c00c6fdd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 162.8405 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO7"
+		(shape input)
+		(at 139.7 99.06 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "eb1c3207-a3a7-44d2-a7e8-b8ce6a331efd")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO2"
+		(shape input)
+		(at 139.7 88.9 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "ebfeea59-e03f-4c53-a8fe-faf79c7c6d8d")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "XSHUT"
+		(shape input)
+		(at 177.8 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f0335d6e-8712-40bb-b59d-1721afe18e0e")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.8328 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "DISTANCE_LF"
+		(shape input)
+		(at 144.78 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "f13ec481-6ff4-44b5-a73b-e33ff6129fe2")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 159.7395 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "GPIO6"
+		(shape input)
+		(at 139.7 96.52 180)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "fc2183dd-18d4-4e28-aa12-dd935bc449a8")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 131.03 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+				(hide yes)
+			)
+		)
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 62.23 270)
+		(at 177.8 101.6 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -806,7 +1370,7 @@
 		(dnp no)
 		(uuid "058713ec-668e-46af-be16-e04061b5fa51")
 		(property "Reference" "TP8"
-			(at 387.35 62.2299 90)
+			(at 182.88 101.5999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -815,7 +1379,7 @@
 			)
 		)
 		(property "Value" "GPIO35"
-			(at 392.684 62.23 90)
+			(at 188.214 101.6 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -824,7 +1388,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 382.27 67.31 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -833,7 +1397,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 67.31 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -842,7 +1406,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 62.23 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -851,7 +1415,7 @@
 			)
 		)
 		(property "M_NUMBER" "-"
-			(at 382.27 62.23 0)
+			(at 177.8 101.6 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -872,7 +1436,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 54.61 270)
+		(at 177.8 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -880,7 +1444,7 @@
 		(dnp no)
 		(uuid "4dbcf07b-cec2-45b9-9490-bb17d64fd3b4")
 		(property "Reference" "TP13"
-			(at 387.35 54.6099 90)
+			(at 182.88 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -889,7 +1453,7 @@
 			)
 		)
 		(property "Value" "GPIO17"
-			(at 392.684 54.61 90)
+			(at 188.214 93.98 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -898,7 +1462,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 382.27 59.69 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -907,7 +1471,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 59.69 0)
+			(at 177.8 99.06 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -916,7 +1480,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 54.61 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -925,7 +1489,7 @@
 			)
 		)
 		(property "M_NUMBER" "-"
-			(at 382.27 54.61 0)
+			(at 177.8 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -946,7 +1510,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 349.25 74.93 270)
+		(at 144.78 114.3 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -954,7 +1518,7 @@
 		(dnp no)
 		(uuid "56ea02c6-bf78-4d01-9894-dba1f8ff62f4")
 		(property "Reference" "TP1"
-			(at 354.33 73.6599 90)
+			(at 150.368 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -963,7 +1527,7 @@
 			)
 		)
 		(property "Value" "GPIO13"
-			(at 354.33 75.438 90)
+			(at 155.702 114.3 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -972,7 +1536,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 349.25 80.01 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -981,7 +1545,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 349.25 80.01 0)
+			(at 144.78 119.38 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -990,7 +1554,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 349.25 74.93 0)
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -999,7 +1563,7 @@
 			)
 		)
 		(property "M_NUMBER" "-"
-			(at 349.25 74.93 0)
+			(at 144.78 114.3 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1020,7 +1584,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 67.31 270)
+		(at 177.8 106.68 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1028,7 +1592,7 @@
 		(dnp no)
 		(uuid "87eab461-ef3b-4182-a80d-bc2729aa0818")
 		(property "Reference" "TP12"
-			(at 387.35 67.3099 90)
+			(at 182.88 106.6799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1037,7 +1601,7 @@
 			)
 		)
 		(property "Value" "GPIO37"
-			(at 392.684 67.31 90)
+			(at 188.214 106.68 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1046,7 +1610,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 382.27 72.39 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1055,7 +1619,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 72.39 0)
+			(at 177.8 111.76 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1064,7 +1628,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 67.31 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1073,7 +1637,7 @@
 			)
 		)
 		(property "M_NUMBER" "-"
-			(at 382.27 67.31 0)
+			(at 177.8 106.68 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1094,7 +1658,7 @@
 	)
 	(symbol
 		(lib_id "Connector:TestPoint")
-		(at 382.27 64.77 270)
+		(at 177.8 104.14 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -1102,7 +1666,7 @@
 		(dnp no)
 		(uuid "dcf17ca3-515c-49ff-90f2-6f0cd1bfc3a0")
 		(property "Reference" "TP9"
-			(at 387.35 64.7699 90)
+			(at 182.88 104.1399 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1111,7 +1675,7 @@
 			)
 		)
 		(property "Value" "GPIO36"
-			(at 392.684 64.77 90)
+			(at 188.214 104.14 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1120,7 +1684,7 @@
 			)
 		)
 		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
-			(at 382.27 69.85 0)
+			(at 177.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1129,7 +1693,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 382.27 69.85 0)
+			(at 177.8 109.22 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1138,7 +1702,7 @@
 			)
 		)
 		(property "Description" "test point"
-			(at 382.27 64.77 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1147,7 +1711,7 @@
 			)
 		)
 		(property "M_NUMBER" "-"
-			(at 382.27 64.77 0)
+			(at 177.8 104.14 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1167,50 +1731,8 @@
 		)
 	)
 	(sheet
-		(at 180.34 179.07)
-		(size 59.69 54.61)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(stroke
-			(width 0.1524)
-			(type solid)
-		)
-		(fill
-			(color 0 0 0 0.0000)
-		)
-		(uuid "4e70a22e-51fe-41e9-b6e4-6676a2d414f6")
-		(property "Sheetname" "LEDS"
-			(at 180.34 178.3584 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left bottom)
-			)
-		)
-		(property "Sheetfile" "leds.kicad_sch"
-			(at 180.34 234.2646 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left top)
-			)
-		)
-		(instances
-			(project "minisumo_2025"
-				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
-					(page "6")
-				)
-			)
-		)
-	)
-	(sheet
-		(at 30.48 87.63)
-		(size 53.34 43.18)
+		(at 101.6 102.87)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1225,7 +1747,7 @@
 		)
 		(uuid "b5eb9438-8aee-4586-b6bd-0aaf8f30957b")
 		(property "Sheetname" "DRIVERS"
-			(at 30.48 86.9184 0)
+			(at 101.6 102.1584 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1234,7 +1756,7 @@
 			)
 		)
 		(property "Sheetfile" "drivers.kicad_sch"
-			(at 30.48 131.3946 0)
+			(at 101.6 112.3446 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1251,8 +1773,8 @@
 		)
 	)
 	(sheet
-		(at 96.52 139.7)
-		(size 30.48 22.86)
+		(at 101.6 118.11)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1267,7 +1789,7 @@
 		)
 		(uuid "ce36e455-c1d6-4286-b161-8d6b6b6e6d6f")
 		(property "Sheetname" "SENSORS"
-			(at 96.52 138.9884 0)
+			(at 101.6 117.3984 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1276,7 +1798,7 @@
 			)
 		)
 		(property "Sheetfile" "sensors.kicad_sch"
-			(at 96.52 163.1446 0)
+			(at 101.6 127.5846 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1293,8 +1815,8 @@
 		)
 	)
 	(sheet
-		(at 39.37 39.37)
-		(size 45.72 40.64)
+		(at 101.6 87.63)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1309,7 +1831,7 @@
 		)
 		(uuid "d26b0986-3f56-4930-b9dd-902ee708dbdb")
 		(property "Sheetname" "ESP32"
-			(at 39.37 38.6584 0)
+			(at 101.6 86.9184 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1318,7 +1840,7 @@
 			)
 		)
 		(property "Sheetfile" "esp32.kicad_sch"
-			(at 39.37 80.5946 0)
+			(at 101.6 97.1046 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1335,8 +1857,8 @@
 		)
 	)
 	(sheet
-		(at 208.28 129.54)
-		(size 66.04 38.1)
+		(at 101.6 133.35)
+		(size 20.32 8.89)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
@@ -1351,7 +1873,7 @@
 		)
 		(uuid "dbf10646-b126-4ca4-a230-9b4833f2ff67")
 		(property "Sheetname" "POWER"
-			(at 208.28 128.8284 0)
+			(at 101.6 132.6384 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -1360,7 +1882,7 @@
 			)
 		)
 		(property "Sheetfile" "power.kicad_sch"
-			(at 208.28 168.2246 0)
+			(at 101.6 142.8246 0)
 			(effects
 				(font
 					(size 1.27 1.27)
