@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 0,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -9,15 +9,15 @@
     "hidden_nets": [
       "",
       "GND",
-      "/CASE",
+      "/ESP32/ESP_EN",
       "+3V3",
       "/D_N",
       "/D-",
       "/D+",
       "/D_P",
       "+5V",
-      "/ESP_EN",
-      "/ESP_BOOT",
+      "/ESP32/ESP_BOOT",
+      "/ESP32/CASE",
       "+BATT",
       "/DISTANCE_L_OUT",
       "/DISTANCE_LF_OUT",
@@ -156,7 +156,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "00000000_00000000_00000000_02002021",
+    "visible_layers": "00000000_00000000_00000000_82002061",
     "zone_display_mode": 0
   },
   "git": {

@@ -482,7 +482,7 @@
       "no_connect_dangling": "warning",
       "pin_not_connected": "error",
       "pin_not_driven": "error",
-      "pin_to_pin": "warning",
+      "pin_to_pin": "error",
       "power_pin_not_driven": "error",
       "same_local_global_label": "warning",
       "similar_label_and_power": "warning",
@@ -744,6 +744,26 @@
     [
       "cdca51c8-556b-4873-bdb8-43b7170e2006",
       "Root"
+    ],
+    [
+      "d26b0986-3f56-4930-b9dd-902ee708dbdb",
+      "ESP32"
+    ],
+    [
+      "b5eb9438-8aee-4586-b6bd-0aaf8f30957b",
+      "DRIVERS"
+    ],
+    [
+      "ce36e455-c1d6-4286-b161-8d6b6b6e6d6f",
+      "SENSORS"
+    ],
+    [
+      "dbf10646-b126-4ca4-a230-9b4833f2ff67",
+      "POWER"
+    ],
+    [
+      "4e70a22e-51fe-41e9-b6e4-6676a2d414f6",
+      "LEDS"
     ]
   ],
   "text_variables": {}
