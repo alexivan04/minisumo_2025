@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 5,
+    "active_layer": 6,
     "active_layer_preset": "",
     "auto_track_width": true,
     "hidden_netclasses": [
@@ -147,9 +147,11 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "tracks",
       "drc_errors",
       "drawing_sheet",
       "pads",
+      "zones",
       "locked_item_shadows",
       "conflict_shadows",
       "shapes"
