@@ -2133,7 +2133,7 @@
 	)
 	(rectangle
 		(start 99.06 52.07)
-		(end 186.69 134.62)
+		(end 233.68 134.62)
 		(stroke
 			(width 0)
 			(type dash)
@@ -3505,7 +3505,7 @@
 				)
 			)
 		)
-		(property "Value" "5k"
+		(property "Value" "10k"
 			(at 122.428 111.506 0)
 			(effects
 				(font
@@ -4363,7 +4363,7 @@
 				(hide yes)
 			)
 		)
-		(property "M_NUMBER" "710-435441019830"
+		(property "M_NUMBER" "688-SKRPACE010"
 			(at 110.49 91.44 0)
 			(effects
 				(font
@@ -4462,7 +4462,7 @@
 				(hide yes)
 			)
 		)
-		(property "M_NUMBER" "710-435441019830"
+		(property "M_NUMBER" "688-SKRPACE010"
 			(at 110.49 68.58 0)
 			(effects
 				(font
@@ -5272,7 +5272,7 @@
 				(hide yes)
 			)
 		)
-		(property "M_NUMBER" "710-435441019830"
+		(property "M_NUMBER" "688-SKRPACE010"
 			(at 110.49 114.3 0)
 			(effects
 				(font
@@ -5414,7 +5414,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1k"
+		(property "Value" "10k"
 			(at 82.042 88.9 0)
 			(effects
 				(font

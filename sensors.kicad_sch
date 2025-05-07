@@ -4488,13 +4488,12 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k"
 			(at 154.432 73.406 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(hide yes)
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric"
@@ -6345,7 +6344,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 152.654 65.532 90)
 			(effects
 				(font
@@ -7165,7 +7164,7 @@
 				)
 			)
 		)
-		(property "Value" "2k"
+		(property "Value" "1k"
 			(at 151.384 127.762 90)
 			(effects
 				(font
@@ -7542,7 +7541,7 @@
 				)
 			)
 		)
-		(property "Value" "3k3"
+		(property "Value" "2k"
 			(at 151.892 135.636 0)
 			(effects
 				(font

@@ -2,7 +2,7 @@
   "board": {
     "active_layer": 6,
     "active_layer_preset": "",
-    "auto_track_width": true,
+    "auto_track_width": false,
     "hidden_netclasses": [
       "Default"
     ],
@@ -19,13 +19,11 @@
       "Net-(U1-SW)",
       "Net-(U1-VCC)",
       "unconnected-(U3-TXD0-Pad37)",
-      "unconnected-(U3-IO40-Pad33)",
       "unconnected-(U3-IO42-Pad35)",
       "unconnected-(U3-RXD0-Pad36)",
       "unconnected-(U3-IO3-Pad15)",
       "unconnected-(U3-IO45-Pad26)",
       "unconnected-(U3-IO46-Pad16)",
-      "unconnected-(U3-IO39-Pad32)",
       "unconnected-(U3-IO41-Pad34)",
       "unconnected-(U4-NC-Pad4)",
       "Net-(U6-~{SF})",
@@ -114,7 +112,9 @@
       "D+",
       "CASE",
       "ESP_EN",
-      "ESP_BOOT"
+      "ESP_BOOT",
+      "unconnected-(U3-IO39-Pad32)",
+      "unconnected-(U3-IO40-Pad33)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -147,6 +147,7 @@
       "grid",
       "footprints_front",
       "footprints_back",
+      "footprint_references",
       "tracks",
       "drc_errors",
       "drawing_sheet",
@@ -156,7 +157,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_fffffdff_ffffffff",
+    "visible_layers": "ffffffff_ffffffff_ffffffff_ffffffff",
     "zone_display_mode": 0
   },
   "git": {
