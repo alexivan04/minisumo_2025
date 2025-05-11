@@ -1,0 +1,6 @@
+/.DS_Store
+/.devcontainer
+/.vscode
+build
+sdkconfig.old
+components/.DS_Store
