@@ -5150,16 +5150,6 @@
 		)
 		(uuid "2e9afe23-ee03-4d02-a306-9378b4047b18")
 	)
-	(label "D_P"
-		(at 240.03 100.33 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "3865518a-01b9-4e3e-b06c-1024453874dc")
-	)
 	(label "VBUS"
 		(at 186.69 69.85 0)
 		(effects
@@ -5190,6 +5180,16 @@
 		)
 		(uuid "6c10dd80-fc5b-4b18-bab0-674551167907")
 	)
+	(label "D_N"
+		(at 229.87 100.33 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right bottom)
+		)
+		(uuid "8538f661-db0d-4469-994f-5cea9c9eb86f")
+	)
 	(label "VBUS"
 		(at 234.95 92.71 0)
 		(effects
@@ -5210,34 +5210,34 @@
 		)
 		(uuid "e7a61ff3-bb32-40fe-a561-62526a5dfd37")
 	)
-	(label "D_N"
-		(at 240.03 102.87 0)
+	(label "D_P"
+		(at 229.87 102.87 180)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify left bottom)
+			(justify right bottom)
 		)
-		(uuid "ff3b71db-1f96-410b-b8b9-f2eb9608f416")
+		(uuid "fbd8b079-2985-47f9-99d0-f4391dcc8e1e")
 	)
 	(global_label "D-"
 		(shape input)
-		(at 229.87 102.87 180)
+		(at 240.03 100.33 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "419de54c-7b5d-49a4-805d-3a0570194678")
+		(uuid "4420eb3d-be26-4a6d-a3ce-e237cfa18870")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.0424 102.87 0)
+			(at 245.8576 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -5266,22 +5266,22 @@
 	)
 	(global_label "D+"
 		(shape input)
-		(at 229.87 100.33 180)
+		(at 240.03 102.87 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
 				(size 1.27 1.27)
 			)
-			(justify right)
+			(justify left)
 		)
-		(uuid "bd441e81-7c87-458d-9c67-02bde2794a96")
+		(uuid "82290ab6-2950-40fd-a0f1-72f4decea706")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 224.0424 100.33 0)
+			(at 245.8576 102.87 0)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify right)
+				(justify left)
 				(hide yes)
 			)
 		)

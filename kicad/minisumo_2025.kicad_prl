@@ -1,6 +1,6 @@
 {
   "board": {
-    "active_layer": 0,
+    "active_layer": 2,
     "active_layer_preset": "",
     "auto_track_width": false,
     "hidden_netclasses": [
@@ -39,7 +39,6 @@
       "Net-(D2-A)",
       "Net-(D4-A)",
       "Net-(D5-A)",
-      "Net-(D6-A)",
       "Net-(D7-A)",
       "Net-(D8-A)",
       "Net-(D9-A)",
@@ -54,13 +53,11 @@
       "unconnected-(U5-A4-Pad5)",
       "Net-(D14-A)",
       "Net-(D15-A)",
-      "Net-(D16-A)",
       "Net-(D17-A)",
       "Net-(D18-A)",
-      "Net-(JP1-C)",
-      "Net-(JP2-C)",
-      "Net-(JP3-C)",
-      "Net-(JP4-C)",
+      "unconnected-(J7-Pin_5-Pad5)",
+      "unconnected-(U5-B6-Pad14)",
+      "unconnected-(U5-A6-Pad7)",
       "Net-(U7-FB)",
       "Net-(C16-Pad1)",
       "Net-(Q1-D)",
@@ -80,11 +77,9 @@
       "/SENSORS/LINE_RIGHT_OUT",
       "/SENSORS/DISTANCE_R90_OUT",
       "/SENSORS/DISTANCE_R_OUT",
-      "/SENSORS/DISTANCE_RF_OUT",
       "/SENSORS/DISTANCE_L90_OUT",
       "/SENSORS/DISTANCE_L_OUT",
       "/SENSORS/LINE_LEFT_OUT",
-      "/SENSORS/DISTANCE_LF_OUT",
       "GPIO13",
       "GPIO1",
       "GPIO47",
@@ -101,11 +96,9 @@
       "GPIO37",
       "GPIO36",
       "GPIO35",
-      "DISTANCE_INTR",
+      "GPIO14",
       "DISTANCE_R90",
       "DISTANCE_L90",
-      "DISTANCE_LF",
-      "DISTANCE_RF",
       "DISTANCE_L",
       "DISTANCE_R",
       "D-",
@@ -114,7 +107,11 @@
       "ESP_EN",
       "ESP_BOOT",
       "unconnected-(U3-IO39-Pad32)",
-      "unconnected-(U3-IO40-Pad33)"
+      "unconnected-(U3-IO40-Pad33)",
+      "Net-(D6-A)",
+      "GPIO7",
+      "DISTANCE_CENTER",
+      "/SENSORS/DISTANCE_CENTER_OUT"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,
@@ -124,7 +121,7 @@
       "shapes": 1.0,
       "tracks": 1.0,
       "vias": 1.0,
-      "zones": 1.0
+      "zones": 0.5600000023841858
     },
     "selection_filter": {
       "dimensions": true,
@@ -157,7 +154,7 @@
       "conflict_shadows",
       "shapes"
     ],
-    "visible_layers": "ffffffff_ffffffff_ffffffff_fffffffa",
+    "visible_layers": "00000000_00000000_00000002_220088dd",
     "zone_display_mode": 0
   },
   "git": {
@@ -200,17 +197,17 @@
       11
     ],
     "col_widths": [
-      156,
-      141,
-      103,
+      78,
       71,
-      103,
-      103,
-      103,
-      74,
-      103,
-      103,
-      103,
+      52,
+      36,
+      52,
+      52,
+      52,
+      37,
+      52,
+      52,
+      52,
       10
     ],
     "custom_group_rules": [],

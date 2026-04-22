@@ -122,7 +122,7 @@
 	)
 	(rectangle
 		(start 128.27 83.82)
-		(end 196.85 116.84)
+		(end 198.12 116.84)
 		(stroke
 			(width 0)
 			(type dash)
@@ -179,6 +179,18 @@
 			)
 		)
 		(uuid "db49b199-c581-42ba-b4b3-24c50b9510b8")
+	)
+	(no_connect
+		(at 177.8 111.76)
+		(uuid "74f4c9b2-c17c-439f-b2c3-df8cc3d97703")
+	)
+	(no_connect
+		(at 177.8 114.3)
+		(uuid "82cfa08d-1acb-47e7-b194-acbf00ad5960")
+	)
+	(no_connect
+		(at 177.8 86.36)
+		(uuid "98b11250-3d67-4b73-9012-3575e8d5bb74")
 	)
 	(wire
 		(pts
@@ -574,6 +586,28 @@
 			)
 		)
 	)
+	(global_label "DISTANCE_R"
+		(shape input)
+		(at 144.78 93.98 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "2ef18c04-60f9-4219-997f-bd4ae4c427ac")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.8928 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO18"
 		(shape input)
 		(at 172.72 96.52 180)
@@ -636,28 +670,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISTANCE_INTR"
-		(shape input)
-		(at 177.8 86.36 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "39192b7c-01f9-448f-8b29-94ffa1cde567")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 194.8157 86.36 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -728,7 +740,7 @@
 			)
 		)
 	)
-	(global_label "DISTANCE_RF"
+	(global_label "DISTANCE_CENTER"
 		(shape input)
 		(at 177.8 91.44 0)
 		(fields_autoplaced yes)
@@ -740,7 +752,7 @@
 		)
 		(uuid "42c47b2a-1c6e-46fc-821a-387e7d19bd9f")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 193.0014 91.44 0)
+			(at 197.7789 91.44 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -768,6 +780,28 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
+				(hide yes)
+			)
+		)
+	)
+	(global_label "SERVO"
+		(shape input)
+		(at 177.8 99.06 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "518a7d38-dab3-474c-93e1-9b4ac3e7d87b")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 186.8328 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
 				(hide yes)
 			)
 		)
@@ -883,50 +917,6 @@
 			)
 		)
 	)
-	(global_label "DISTANCE_L"
-		(shape input)
-		(at 144.78 96.52 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "6b667870-8ec0-423a-9171-0c60cbf45b28")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.6509 96.52 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SCL"
-		(shape input)
-		(at 177.8 111.76 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "7ab85410-f11c-4215-a7f1-614e8e93c803")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.2928 111.76 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
 	(global_label "LINE_RIGHT"
 		(shape input)
 		(at 177.8 96.52 0)
@@ -989,28 +979,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISTANCE_R"
-		(shape input)
-		(at 144.78 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "9ca9acba-1b72-4a5d-b77c-5430cff9c3b9")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 158.8928 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1081,6 +1049,28 @@
 			)
 		)
 	)
+	(global_label "DISTANCE_L"
+		(shape input)
+		(at 144.78 96.52 0)
+		(fields_autoplaced yes)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify left)
+		)
+		(uuid "b4ac44b4-d35a-49ea-9913-ff4036571e8a")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 158.6509 96.52 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+				(hide yes)
+			)
+		)
+	)
 	(global_label "GPIO11"
 		(shape input)
 		(at 139.7 109.22 180)
@@ -1099,28 +1089,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "SDA"
-		(shape input)
-		(at 177.8 114.3 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "b99df686-220d-44d8-a613-0eff06b39e61")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 184.3533 114.3 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1297,50 +1265,6 @@
 					(size 1.27 1.27)
 				)
 				(justify right)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "XSHUT"
-		(shape input)
-		(at 177.8 99.06 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f0335d6e-8712-40bb-b59d-1721afe18e0e")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 186.8328 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-				(hide yes)
-			)
-		)
-	)
-	(global_label "DISTANCE_LF"
-		(shape input)
-		(at 144.78 93.98 0)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "f13ec481-6ff4-44b5-a73b-e33ff6129fe2")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 159.7395 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
 				(hide yes)
 			)
 		)
@@ -1732,6 +1656,80 @@
 			(project "minisumo_2025"
 				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
 					(reference "TP9")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector:TestPoint")
+		(at 144.78 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(uuid "fceee81c-8876-44a0-84c3-9c2c6641ed9d")
+		(property "Reference" "TP11"
+			(at 149.86 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "GPIO7"
+			(at 155.194 99.06 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "TestPoint:TestPoint_Pad_1.5x1.5mm"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 144.78 104.14 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "test point"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "M_NUMBER" "-"
+			(at 144.78 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "43918065-be42-441a-bc96-7ade82dc54d0")
+		)
+		(instances
+			(project "minisumo_2025"
+				(path "/cdca51c8-556b-4873-bdb8-43b7170e2006"
+					(reference "TP11")
 					(unit 1)
 				)
 			)
